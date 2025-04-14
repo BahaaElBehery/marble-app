@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "title": "Emperador Spain",
+    "img": "/Cat-Marble/0391.jpg",
+    "description": "A luxurious dark brown marble with striking white and light brown veining. Ideal for elegant interiors and statement pieces."
+  },
+  {
+    "id": 2,
+    "title": "Perlato Siciliano",
+    "img": "/Cat-Marble/perlato-sicilia-marble-tile.jpg",
+    "description": "A classic beige marble with subtle golden veins, offering a timeless and sophisticated look for flooring and walls."
+  },
+  {
+    "id": 3,
+    "title": "Fleto",
+    "img": "/Cat-Marble/89593c_7ec9dc4f12e442a0b3f629341211a368~mv2.webp",
+    "description": "A soft beige marble with delicate veining, perfect for creating warm and inviting spaces."
+  },
+  {
+    "id": 4,
+    "title": "Breccia Daino",
+    "img": "/Cat-Marble/Breccia-Daino-Marble1.webp",
+    "description": "A unique beige marble with intricate brown veins, adding character and elegance to any design."
+  },
+  {
+    "id": 5,
+    "title": "Trieste",
+    "img": "/Cat-Marble/triesta-marble-tile-6774-1B.jpg",
+    "description": "A refined light beige marble with subtle textures, ideal for luxurious flooring and wall applications."
+  },
+  {
+    "id": 6,
+    "title": "Silvia",
+    "img": "/Cat-Marble/silvia-marble-500x500.webp",
+    "description": "A warm-toned Egyptian marble known for its durability and natural beauty, widely used in interiors and exteriors."
+  },
+  {
+    "id": 7,
+    "title": "Carrara",
+    "img": "/Cat-Marble/carara.jpg",
+    "description": "An iconic Italian white marble with soft grey veins, a top choice for countertops, walls, and flooring in luxurious spaces."
+  },
+  {
+    "id": 8,
+    "title": "Negro Marquina",
+    "img": "/Cat-Marble/Marquina-Black_1.webp",
+    "description": "A dramatic black marble with bold white veining, adding sophistication and contrast to any design."
+  },
+  {
+    "id": 9,
+    "title": "Piccino Classic",
+    "img": "/Cat-Marble/pink-valencia-500x500.webp",
+    "description": "A charming pink marble with delicate veining, offering a soft and elegant touch to interiors."
+  },
+  {
+    "id": 10,
+    "title": "Light Emperador",
+    "img": "/Cat-Marble/EMPERADOR-LIGHT-MARBLE.webp",
+    "description": "A warm-toned brown marble with intricate veining, perfect for a luxurious and natural look."
+  },
+
+  {
+    "id": 11,
+    "title": "Menia Beige",
+    "img": "/Cat-Marble/beige-tivoli-marble-500x500.webp",
+    "description": "A soft beige marble with a natural and warm appearance, ideal for elegant flooring and walls."
+  },
+  {
+    "id": 12,
+    "title": "Katrina Beige",
+    "img": "/Cat-Marble/katrina-marble-slabs-tiles-egypt-brown-marble-p816442-1b.jpg",
+    "description": "A creamy beige marble with delicate veining, perfect for adding a touch of sophistication to interiors."
+  },
+  {
+    "id": 13,
+    "title": "Tavira Marble",
+    "img": "/Cat-Marble/Trevera-800x800.webp",
+    "description": "A refined marble with unique patterns, bringing a sense of luxury and exclusivity to any space."
+  },
+  {
+    "id": 14,
+    "title": "Green India",
+    "img": "/Cat-Marble/20200305_145047-001.jpg",
+    "description": "A stunning deep green marble with white veining, perfect for bold and elegant designs."
+  },
+  {
+    "id": 15,
+    "title": "Royal Cream",
+    "img": "/Cat-Marble/Royal-Cream.jpg",
+    "description": "A smooth cream-colored marble with subtle veining, offering a classic and timeless appeal."
+  },
+  {
+    "id": 16,
+    "title": "Badal",
+    "img": "/Cat-Marble/Badal-800x800.webp",
+    "description": "A sophisticated gray marble with soft veining, ideal for modern and contemporary interiors."
+  },
+  {
+    "id": 17,
+    "title": "China Verona",
+    "img": "/Cat-Marble/China-Verona-2-1.webp",
+    "description": "A beige marble with a polished finish, perfect for enhancing the beauty of any interior space."
+  },
+  {
+    "id": 18,
+    "title": "Sofitel Gold",
+    "img": "/Cat-Marble/sofitel-gold-img-1.jpg",
+    "description": "A golden-hued marble with luxurious veining, creating a regal and elegant atmosphere."
+  },
+  {
+    "id": 19,
+    "title": "Spanish Beige",
+    "img": "/Cat-Marble/spanish-beige-marble-500x500.webp",
+    "description": "A warm beige marble with a smooth texture, ideal for classic and modern designs alike."
+  },
+  {
+    "id": 20,
+    "title": "Ocean Grey",
+    "img": "/Cat-Marble/ocean-grey_1.jpg",
+    "description": "A sophisticated gray marble with subtle movement, bringing depth and character to any space."
+  },
+  {
+    "id": 21,
+    "title": "Rosso Levanto",
+    "img": "/Cat-Marble/download.jpg",
+    "description": "A striking deep red marble with white veins, adding warmth and richness to interiors."
+  },
+  {
+    "id": 22,
+    "title": "Jade Green",
+    "img": "/Cat-Marble/163566577447_3176_356809.jpg",
+    "description": "A luxurious green marble with a unique texture, perfect for statement pieces and bold interiors."
+  },
+  {
+    "id": 23,
+    "title": "Macaubas",
+    "img": "/Cat-Marble/azul-macaubas.jpg",
+    "description": "An exotic blue marble with striking veining, adding a dramatic and elegant touch to any design."
+  },
+  {
+    "id": 24,
+    "title": "Red Onyx",
+    "img": "/Cat-Marble/red-onyx.jpg",
+    "description": "A translucent red onyx with rich tones, ideal for creating luxurious and artistic interiors."
+  },
+  {
+    "id": 25,
+    "title": "Galala Beige",
+    "img": "/Cat-Marble/GP01148_b.jpg",
+    "description": "A popular Egyptian marble with a soft beige tone, suitable for both modern and classic applications."
+  },
+  {
+    "id": 26,
+    "title": "Arabescato",
+    "img": "/Cat-Marble/Marble-55-of-93.webp",
+    "description": "A high-end Italian marble with bold veining, perfect for elegant countertops and walls."
+  },
+  {
+    "id": 27,
+    "title": "Portoro",
+    "img": "/Cat-Marble/diamond-porotoro-hi-glossy-600x1200-f3.jpg",
+    "description": "A luxurious black marble with golden veins, ideal for creating a dramatic and opulent look."
+  },
+  {
+    "id": 28,
+    "title": "Greige",
+    "img": "/Cat-Marble/d3d_default_75EG.jpg",
+    "description": "A contemporary mix of gray and beige tones, offering a stylish and neutral foundation for any design."
+  },
+  {
+    "id": 29,
+    "title": "Venice Brown",
+    "img": "/Cat-Marble/weinisizong.webp",
+    "description": "A deep brown marble with elegant veining, perfect for creating warm and inviting spaces."
+  },
+  {
+    "id": 30,
+    "title": "Galaxy Blue",
+    "img": "/Cat-Marble/blue-galaxy.jpg",
+    "description": "A unique blue marble with celestial patterns, bringing a sense of sophistication and exclusivity."
+  },
+
+  {
+    "id": 31,
+    "title": "Cinderella Grey",
+    "img": "/Cat-Marble/2134-202203242301211103.jpg",
+    "description": "A sophisticated grey marble with a smooth, consistent texture, perfect for modern and minimalist interiors."
+  },
+  {
+    "id": 32,
+    "title": "Panda White",
+    "img": "/Cat-Marble/167-690X435_PRODUCT-Panda-White.jpg",
+    "description": "A stunning white marble with bold black veins, creating a striking contrast for luxury spaces."
+  },
+  {
+    "id": 33,
+    "title": "Jerusalem Gold",
+    "img": "/Cat-Marble/marble_Jerusalem-Gold_mnmtpRvC9oXJLMLGNDSa.jpg",
+    "description": "A warm golden marble with a rich texture, adding a touch of elegance to both classic and contemporary designs."
+  },
+  {
+    "id": 34,
+    "title": "Crema Marfil",
+    "img": "/Cat-Marble/marmol-crema-primera-pulycort-1.jpg",
+    "description": "A premium Spanish marble with soft beige tones and subtle veining, ideal for timeless interiors."
+  },
+  {
+    "id": 35,
+    "title": "Rosa Aurora",
+    "img": "/Cat-Marble/Rosa-Aurora-Macchia-Vecchia-scaled.jpg",
+    "description": "A delicate pink marble with soft waves of white and beige, bringing warmth and elegance to any space."
+  },
+  {
+    "id": 36,
+    "title": "Red Cream",
+    "img": "/Cat-Marble/download(1).jpg",
+    "description": "A unique blend of red and cream tones, offering a warm and inviting aesthetic."
+  },
+  {
+    "id": 37,
+    "title": "Coffee Brown",
+    "img": "/Cat-Marble/coffee-brown.jpg",
+    "description": "A deep brown marble with subtle golden veins, perfect for adding richness and warmth to interiors."
+  },
+  {
+    "id": 38,
+    "title": "Nero China",
+    "img": "/Cat-Marble/Nero-Marquina-Marble.webp",
+    "description": "A sleek black marble with delicate white veins, creating a bold and luxurious statement."
+  },
+  {
+    "id": 39,
+    "title": "Sunny White",
+    "img": "/Cat-Marble/satuario-classic-marble-500x500.webp",
+    "description": "A bright white marble with subtle grey veining, perfect for classic and contemporary spaces alike."
+  },
+  {
+    "id": 40,
+    "title": "Marmara White",
+    "img": "/Cat-Marble/marmara-white-(1).jpg",
+    "description": "A distinctive white marble with linear grey streaks, offering a modern and structured look."
+  },
+  {
+    "id": 41,
+    "title": "Jura Beige",
+    "img": "/Cat-Marble/Jura-Beige-Limestone.jpg",
+    "description": "A durable beige limestone with natural fossilized textures, ideal for both indoor and outdoor applications."
+  },
+  {
+    "id": 42,
+    "title": "Moon Cream",
+    "img": "/Cat-Marble/Moon-Cream-1-1-scaled.jpg",
+    "description": "A smooth cream marble with soft variations, bringing warmth and elegance to interiors."
+  },
+  {
+    "id": 43,
+    "title": "Crystal Brown",
+    "img": "/Cat-Marble/Crystal-Brown-Marble.webp",
+    "description": "A rich brown marble with subtle crystal-like patterns, perfect for a refined and natural look."
+  },
+  {
+    "id": 44,
+    "title": "Shell Beige",
+    "img": "/Cat-Marble/ShellBeigeMarble2020112219846.jpg",
+    "description": "A soft beige marble with a delicate, shell-like texture, ideal for classic and elegant interiors."
+  },
+  {
+    "id": 45,
+    "title": "Snow White",
+    "img": "/Cat-Marble/snow-white-antique.jpg",
+    "description": "A pristine white marble with a pure, clean appearance, perfect for luxurious and contemporary designs."
+  },
+  {
+    "id": 46,
+    "title": "Sofia Beige",
+    "img": "/Cat-Marble/sofia-beige-500x500.webp",
+    "description": "A warm beige marble with subtle textures, ideal for elegant and sophisticated interiors."
+  },
+  {
+    "id": 47,
+    "title": "Dora Grey",
+    "img": "/Cat-Marble/2429_13829.jpg",
+    "description": "A modern grey marble with a refined look, suitable for contemporary and minimalist designs."
+  },
+  {
+    "id": 48,
+    "title": "Ariston",
+    "img": "/Cat-Marble/Ariston-marble-2.jpg",
+    "description": "A high-end white marble with soft grey veins, delivering a luxurious and sophisticated aesthetic."
+  }
+]

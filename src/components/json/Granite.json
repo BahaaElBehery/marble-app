@@ -1,0 +1,291 @@
+[
+  {
+    "id": 49,
+    "title": "Royal Red",
+    "image": "/Cat-Marble/red-royal-granite-tiles-slabs-p816870-1b.jpg",
+    "description": "Deep red granite with subtle black and white speckles, ideal for countertops and flooring."
+  },
+  {
+    "id": 50,
+    "title": "Galaxy",
+    "image": "/Cat-Marble/Black_Galaxy_edited.jpg",
+    "description": "Black granite with shimmering gold or white flecks, perfect for adding a touch of elegance."
+  },
+  {
+    "id": 51,
+    "title": "Black Aswan",
+    "image": "/Cat-Marble/ASWAN-BLACK.jpg",
+    "description": "Dark black granite known for its durability and sleek appearance, commonly used in monuments and countertops."
+  },
+  {
+    "id": 52,
+    "title": "Red Aswan",
+    "image": "/Cat-Marble/red-aswan-21600.jpeg",
+    "description": "Rich red granite with black and gray grains, often used in decorative applications."
+  },
+  {
+    "id": 53,
+    "title": "Bardesio",
+    "image": "/Cat-Marble/1(13).jpeg",
+    "description": "Granite featuring a mix of gray, white, and black tones, suitable for various interior designs."
+  },
+  {
+    "id": 54,
+    "title": "Labrador",
+    "image": "/Cat-Marble/03692-swatch.jpg",
+    "description": "Dark granite with blue and green iridescent flecks, offering a unique and luxurious look."
+  },
+  {
+    "id": 55,
+    "title": "Fersan",
+    "image": "/Cat-Marble/light-fersan-21603.jpeg",
+    "description": "Light-colored granite with intricate patterns, ideal for flooring and wall cladding."
+  },
+  {
+    "id": 56,
+    "title": "Verdi",
+    "image": "/Cat-Marble/dark-verde-ghazal.webp",
+    "description": "Green granite with dark veins, bringing a natural feel to any space."
+  },
+  {
+    "id": 57,
+    "title": "Gandola",
+    "image": "/Cat-Marble/GandolaGranitegrey2019118145348.jpg",
+    "description": "Granite with a harmonious blend of beige, brown, and gray hues, versatile for various applications."
+  },
+  {
+    "id": 58,
+    "title": "White Halayeb",
+    "image": "/Cat-Marble/White-Halayeb.webp",
+    "description": "Pristine white granite with subtle gray veining, offering a clean and modern aesthetic."
+  },
+  {
+    "id": 59,
+    "title": "Roza",
+    "image": "/Cat-Marble/chima-pink-granite.jpg",
+    "description": "Pinkish granite with fine grains, adding warmth and elegance to interiors."
+  },
+  {
+    "id": 60,
+    "title": "Baltic Brown",
+    "image": "/Cat-Marble/baltic-brown-granite.jpg",
+    "description": "Brown granite with circular patterns of black and lighter browns, popular for countertops."
+  },
+  {
+    "id": 61,
+    "title": "Tiger Skin",
+    "image": "/Cat-Marble/Tiger-Skin-Granite.jpg",
+    "description": "Granite with bold streaks resembling tiger stripes, making a statement in any setting."
+  },
+  {
+    "id": 62,
+    "title": "Crema Bordeaux",
+    "image": "/Cat-Marble/granite_Crema-Bordeaux_W8mSmWs6lvQ1bst3TK29.jpg",
+    "description": "Warm-toned granite with a mix of cream, gold, and burgundy hues, exuding luxury."
+  },
+  {
+    "id": 63,
+    "title": "Solarious",
+    "image": "/Cat-Marble/solarius-granite.jpg",
+    "description": "Vibrant granite with swirling patterns of gold, orange, and brown, adding energy to spaces."
+  },
+  {
+    "id": 64,
+    "title": "Ubatuba",
+    "image": "/Cat-Marble/ubatuba-granite.jpg",
+    "description": "Dark green granite with flecks of gold and brown, commonly used in kitchen countertops."
+  },
+  {
+    "id": 65,
+    "title": "Absolute Black",
+    "image": "/Cat-Marble/absolute_20black_20_28honed_29_ed1c9778-6f2b-4197-aba3-be3aabb772f9.jpg",
+    "description": "Solid black granite with a consistent color, offering a sleek and contemporary look."
+  },
+  {
+    "id": 66,
+    "title": "Giallo Vicenza",
+    "image": "/Cat-Marble/giallo-vicenza-granite.jpg",
+    "description": "Golden-yellow granite with brown and gray veins, bringing warmth to any space."
+  },
+  {
+    "id": 67,
+    "title": "Baltic Red",
+    "image": "/Cat-Marble/Carmen-Red-GraniteJPG201879163730.jpg",
+    "description": "Red granite with black and gray speckles, suitable for both traditional and modern designs."
+  },
+  {
+    "id": 68,
+    "title": "Imperial Gold",
+    "image": "/Cat-Marble/___big_imperial_gold_1637226929__20211116_082921_pcd_adriatik_novezamky_a_3995a.jpg",
+    "description": "Luxurious gold granite with intricate patterns, perfect for high-end applications."
+  },
+  {
+    "id": 69,
+    "title": "Titanium Black",
+    "image": "/Cat-Marble/titanium-black-granite-polished-500x500.webp",
+    "description": "Elegant black granite with silver and gold veining, perfect for luxury countertops."
+  },
+  {
+    "id": 70,
+    "title": "Prada Gold",
+    "image": "/Cat-Marble/prada-gold-Sample.jpg",
+    "description": "Golden granite with warm earthy tones, ideal for classic interior designs."
+  },
+  {
+    "id": 71,
+    "title": "Bianco",
+    "image": "/Cat-Marble/Bianco-Sardo-Granite-.jpeg",
+    "description": "Bright white granite with subtle gray veining, offers a clean and modern look."
+  },
+  {
+    "id": 72,
+    "title": "Vyara Gold",
+    "image": "/Cat-Marble/vyara-gold-granite.jpg",
+    "description": "A golden base granite with wavy brown and gray accents, great for elegant spaces."
+  },
+  {
+    "id": 73,
+    "title": "Blue Pearl",
+    "image": "/Cat-Marble/Blue-Pearl-Granite.webp",
+    "description": "Dark blue granite with iridescent crystals, perfect for stylish countertops."
+  },
+  {
+    "id": 74,
+    "title": "American Bouquet",
+    "image": "/Cat-Marble/AmericanBouquet.jpg",
+    "description": "Rich blend of brown, red, and black, giving a bouquet-like appearance."
+  },
+  {
+    "id": 75,
+    "title": "Chapel Rose",
+    "image": "/Cat-Marble/Chapel-Rose.jpg",
+    "description": "Soft pink granite with light speckles, brings a warm and inviting ambiance."
+  },
+  {
+    "id": 76,
+    "title": "Madurai Gold",
+    "image": "/Cat-Marble/madurai-gold-granite-1517053110-3610291.jpeg",
+    "description": "Warm gold granite with orange and brown patterns, adds depth to any setting."
+  },
+  {
+    "id": 77,
+    "title": "Rosa Beta",
+    "image": "/Cat-Marble/ROSA-BETA.jpg",
+    "description": "Classic pink granite with consistent grain, commonly used in exteriors."
+  },
+  {
+    "id": 78,
+    "title": "Butterfly Blue",
+    "image": "/Cat-Marble/Butterfly-Blue-Granite-Surface.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+
+  {
+    "id": 79,
+    "title": "kashmir gold",
+    "image": "/Cat-Marble/granite_Kashmir-Gold_fS107YqgmLPUZUP1PylU.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 80,
+    "title": "santa cecilia",
+    "image": "/Cat-Marble/santa_20cecilia.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 81,
+    "title": "new calendonia",
+    "image": "/Cat-Marble/new-caledonia.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 82,
+    "title": "royal brown",
+    "image": "/Cat-Marble/granite-flooring-slab-500x500.webp",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 83,
+    "title": "amber fantasy",
+    "image": "/Cat-Marble/DTN_G411_AmberFantasy.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 84,
+    "title": "verde tropical",
+    "image": "/Cat-Marble/verde-tropical.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 85,
+    "title": "wasa quartieZ",
+    "image": "/Cat-Marble/wasa-quartzite-tile-10460-1B.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 86,
+    "title": "bash paradiso",
+    "image": "/Cat-Marble/Bash-Paradiso-Granite.webp",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 87,
+    "title": "lapidus",
+    "image": "/Cat-Marble/Lapidus.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 88,
+    "title": "perla bianca",
+    "image": "/Cat-Marble/863ed65afb42cb5c4ceea002e2f78845.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 89,
+    "title": "terra ombra",
+    "image": "/Cat-Marble/Terra-Ombra.webp",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 90,
+    "title": "amarone",
+    "image": "/Cat-Marble/Amarone-Granite-Close-Up-1030x773.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 91,
+    "title": "silver amarone",
+    "image": "/Cat-Marble/Granite-Silver-Amarone-min.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 92,
+    "title": "azul bahia",
+    "image": "/Cat-Marble/Azul-Bahia-granite.webp",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 93,
+    "title": "typhoon gold",
+    "image": "/Cat-Marble/typhoon-gold-granite-tile-4308-1B.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 94,
+    "title": "blue louis",
+    "image": "/Cat-Marble/54dc4086cc6e77818215cfef73bcb818.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 95,
+    "title": "nobel red",
+    "image": "/Cat-Marble/Noble-Red-Granite-1024x1024.webp",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  },
+  {
+    "id": 96,
+    "title": "butterfly green",
+    "image": "/Cat-Marble/butterfly-green-e1675415469268.jpg",
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+  }
+]
