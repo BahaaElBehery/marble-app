@@ -36,8 +36,8 @@ const Catigories = () => {
         <Masterpiece setMarbel={setMarbel} />
 
         {marbel ? (
-          <div className="w-11/12 mx-auto mt-10">
-            <h2 className="text-7xl max-sm:text-5xl font-bold text-center text-slate-200 mb-10">
+          <div className="w-11/12 mx-auto mt-10 max-w-[1920px]">
+            <h2 className="text-7xl max-sm:text-5xl font-bold text-center bg-gradient-to-r from-white to-gray-500 text-transparent bg-clip-text mb-10">
               Marble
             </h2>
             <div className="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-7">
@@ -48,7 +48,7 @@ const Catigories = () => {
                       <img
                         src={e.img}
                         alt=""
-                        className="w-full h-full bg-cover transition-all duration-300 hover:scale-105 cursor-pointer rounded-2xl"
+                        className="w-full h-full bg-cover transition-all duration-300 hover:scale-105 cursor-pointer rounded-2xl object-cover"
                       />
                     </div>
                   </Link>
@@ -70,7 +70,7 @@ const Catigories = () => {
             )}
           </div>
         ) : (
-          <div className="w-11/12 mx-auto mt-10">
+          <div className="w-11/12 mx-auto mt-10 max-w-[1920px]">
             <h2 className="text-7xl max-sm:text-5xl font-bold text-center text-slate-200 mb-10">
               Granite
             </h2>

@@ -11,7 +11,7 @@ const Contact_US = () => {
     <div className="w-full min-h-screen">
       <Header />
 
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center w-11/12 mx-auto p-10">
+      <section className="grid grid-cols-1 max-w-[1920px] md:grid-cols-2 gap-10 items-center w-11/12 mx-auto p-10">
         <div>
           <img
             src="/Cat-Marble/Contact.jpg"
@@ -38,7 +38,7 @@ const Contact_US = () => {
         </div>
       </section>
 
-      <section className="w-11/12 mx-auto px-10 mt-10">
+      <section className="w-11/12 mx-auto px-10 mt-10 max-w-[1920px]">
         <h3 className="text-3xl font-bold mb-6">
           We Would Love To Hear From You
         </h3>

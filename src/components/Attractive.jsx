@@ -1,6 +1,6 @@
 const Attractive = (Props) => {
   return (
-    <div className="w-11/12 mx-auto grid grid-cols-2 max-xl:grid-cols-1 gap-5 p-5">
+    <div className="w-11/12 max-w-[1920px] mx-auto grid grid-cols-2 max-xl:grid-cols-1 gap-5 p-5">
       {/* ضع الصورة في البداية عبر order */}
       <div className={Props.classOrderImg}>
         <img
