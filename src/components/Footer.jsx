@@ -37,7 +37,7 @@ const Footer = () => {
     "w-[90px] h-[90px] outline-none border-none bg-white shadow-md transition-transform duration-200 ease-in-out cursor-pointer flex items-center justify-center";
 
   return (
-    <div className="w-[90%] mx-auto bg-slate-200 max-xl:px-10 grid grid-cols-5 max-xl:grid-cols-4  text-black py-10 mt-10 rounded-t-2xl">
+    <div className="w-11/12 max-w-[1920px] mx-auto bg-slate-200 max-xl:px-10 grid grid-cols-5 max-xl:grid-cols-4  text-black py-10 mt-10 rounded-t-2xl">
       <div className="col-span-2 flex flex-col items-center justify-center max-sm:col-span-full">
         <Link to={`/`} className="text-center capitalize">
           <span className="text-5xl font-black">ElBehery</span>
@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
 
       {/* Section 2 - Navigation Links */}
-      <div className="max-xl:col-span-2 max-sm:col-span-full flex flex-col max-xl:items-center max-xl:justify-center justify-between text-2xl space-y-3 max-sm:mt-20 *:max-sm:text-xl">
+      <div className="max-xl:col-span-2 max-sm:col-span-full flex flex-col max-xl:items-center max-xl:justify-center justify-evenly text-lg space-y-3 max-sm:mt-20 *:max-sm:text-xl *:w-fit">
         <Link to="/categories" className="hover:underline">
           Categories
         </Link>

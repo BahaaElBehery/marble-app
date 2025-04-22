@@ -33,7 +33,7 @@ const AboutUs = () => {
       <div ref={excludedRef}>
         <Header />
 
-        <div className="mx-auto flex flex-col items-center justify-evenly mt-50">
+        <div className="mx-auto flex flex-col items-center justify-evenly mt-50 max-w-[1920px]">
           <h2 className="text-9xl px-5 max-md:text-7xl max-sm:text-5xl text-[#8b683e] font-bold">
             About Us
           </h2>
@@ -43,7 +43,7 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <div className="mt-20 *:text-black">
+        <div className="mt-20 *:text-black max-w-[1920px] mx-auto">
           <div className="w-[90%] mx-auto grid grid-cols-5 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 max-xl:gap-10 gap-3 *:border-r *:border-gray-300 bg-slate-50 py-10 rounded-md">
             <AbOut_Grid title="150k SQM" paragraph="Slabs in Stock" />
             <AbOut_Grid title="10k CBM" paragraph="Blocka in Stock" />
@@ -67,7 +67,7 @@ const AboutUs = () => {
           img="/Cat-Marble/about-us-our-story.jpg"
         />
 
-        <div className="w-[90%] mx-auto grid grid-cols-2 mt-20">
+        <div className="w-[90%] max-w-[1920px] mx-auto grid grid-cols-2 mt-20">
           <div className="flex flex-col max-xl:col-span-2">
             <h3 className="text-5xl max-sm:text-4xl">Our Mission</h3>
             <p className="mt-10 text-xl max-sm:text-sm">

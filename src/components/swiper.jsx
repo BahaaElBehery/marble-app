@@ -5,7 +5,7 @@ import "swiper/css";
 
 const Swee = () => {
   return (
-    <div className="w-full mx-auto -z-10">
+    <div className="w-full max-w-[1920px] mx-auto -z-10">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         autoplay={{ delay: 3000 }}

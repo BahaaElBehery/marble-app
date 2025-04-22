@@ -2,7 +2,7 @@ import NaturalC from "./NaturalC";
 
 const WeOfferd = () => {
   return (
-    <div className="w-11/12 mx-auto">
+    <div className="w-11/12 mx-auto max-w-[1920px]">
       <div className="flex flex-col items-center p-3 mt-10">
         <h2 className="font-bold text-4xl capitalize max-lg:text-2xl max-sm:text-xl">
           Discover the Finest Marble Types

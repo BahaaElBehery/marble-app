@@ -1,6 +1,6 @@
 const DiscoverSec = () => {
   return (
-    <section className="w-11/12 mx-auto px-6 py-5">
+    <section className="w-11/12 mt-20 max-w-[1920px] mx-auto px-6 py-5">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
         <div>
           <h2 className="text-3xl max-lg:text-2xl font-bold text-gray-300">
