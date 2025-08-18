@@ -1,12 +1,11 @@
 import { Link } from "react-router";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { useState } from "react";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    message: "",
-  });
+  const { t, i18n } = useTranslation("common");
+  const [formData, setFormData] = useState({ name: "", message: "" });
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -14,117 +13,111 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // رقم هاتف الواتساب الخاص بك (بدون +)
-    const phoneNumber = "201115374045"; // ضع رقمك هنا
-
-    // صياغة الرسالة
-    const textMessage = ` Hi Im ${formData.name}.\n I Have A Complaint Regarding:\n${formData.message}`;
-
-    // تحويل النص إلى رابط WhatsApp
+    const phoneNumber = "201031618693";
+    const textMessage = `Hi, I'm ${formData.name}.\nMessage:\n${formData.message}`;
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       textMessage
     )}`;
-
-    // فتح WhatsApp مع الرسالة
     window.open(whatsappURL, "_blank");
-
-    // إعادة تعيين النموذج بعد الإرسال
     setFormData({ name: "", message: "" });
   };
 
-  const baseClass =
-    "w-[90px] h-[90px] outline-none border-none bg-white shadow-md transition-transform duration-200 ease-in-out cursor-pointer flex items-center justify-center";
-
   return (
-    <div className="w-11/12 max-w-[1920px] mx-auto bg-slate-200 max-xl:px-10 grid grid-cols-5 max-xl:grid-cols-4  text-black py-10 mt-10 rounded-t-2xl">
-      <div className="col-span-2 flex flex-col items-center justify-center max-sm:col-span-full">
-        <Link to={`/`} className="text-center capitalize">
-          <span className="text-5xl font-black">ElBehery</span>
-          <br />
-          <span className="text-xl text-gray-600 font-light">
-            Marble & Granite
-          </span>
-        </Link>
-        <div className="flex items-center justify-center mt-5">
-          <div className="flex gap-4">
-            <a href="https://www.facebook.com/profile.php?id=100010377245567">
-              <button
-                className={`${baseClass} w-[60px] h-[60px] rounded-full flex items-center justify-center hover:scale-110 hover:bg-[#1877f2] group`}
-              >
-                <FaFacebook className="w-[30px] h-[30px] text-[#1877f2] group-hover:text-white transition-colors duration-200" />
-              </button>
-            </a>
+    <footer
+      className="max-w-[1920px] mx-auto bg-black text-white py-12 px-6"
+      dir="ltr"
+    >
+      <div className="mx-auto grid md:grid-cols-3 gap-12">
+        {/* Logo & Social */}
+        <div
+          className={`${
+            i18n.language === "ar"
+              ? "flex flex-col items-center justify-start"
+              : null
+          }`}
+        >
+          <h2 className="text-3xl font-bold tracking-wide text-yellow-500">
+            {t("footer.title")}
+          </h2>
+          <p className="text-gray-400 mt-2">{t("footer.subtitle")}</p>
 
-            <a href="https://www.instagram.com/bahaa_el_behery/">
-              <button
-                className={`${baseClass} w-[60px] h-[60px] rounded-full flex items-center justify-center hover:scale-110 hover:bg-[#cc39a4] group`}
-              >
-                <FaInstagram className="w-[30px] h-[30px] text-[#cc39a4] group-hover:text-white transition-colors duration-200" />
-              </button>
+          <div className={`flex gap-4 mt-5`}>
+            <a
+              href="https://www.facebook.com/profile.php?id=100010377245567"
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 bg-gray-800 rounded-full hover:bg-yellow-500 transition-colors"
+            >
+              <FaFacebookF size={20} />
+            </a>
+            <a
+              href="https://www.instagram.com/bahaa_el_behery/"
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 bg-gray-800 rounded-full hover:bg-yellow-500 transition-colors"
+            >
+              <FaInstagram size={20} />
             </a>
           </div>
         </div>
+
+        {/* Links */}
+        <div className="flex flex-col items-center gap-3 *:w-fit">
+          <h3 className="text-lg font-semibold text-yellow-500">
+            {t("footer.quickLinks")}
+          </h3>
+          <Link to="/categories" className="hover:text-yellow-400">
+            {t("footer.categories")}
+          </Link>
+          <Link to="/collections" className="hover:text-yellow-400">
+            {t("footer.collections")}
+          </Link>
+          <Link to="/about-us" className="hover:text-yellow-400">
+            {t("footer.about")}
+          </Link>
+          <Link to="/contact-us" className="hover:text-yellow-400">
+            {t("footer.contact")}
+          </Link>
+        </div>
+
+        {/* Contact Form */}
+        <div>
+          <h3 className="text-lg font-semibold text-yellow-500 mb-4">
+            {t("footer.inquiry")}
+          </h3>
+          <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+            <input
+              type="text"
+              name="name"
+              placeholder={t("footer.name")}
+              value={formData.name}
+              onChange={handleChange}
+              required
+              className="bg-gray-800 p-3 rounded-md outline-none focus:ring-2 focus:ring-yellow-500"
+            />
+            <textarea
+              name="message"
+              placeholder={t("footer.message")}
+              value={formData.message}
+              onChange={handleChange}
+              required
+              rows="3"
+              className="bg-gray-800 p-3 rounded-md outline-none focus:ring-2 focus:ring-yellow-500 max-h-[100px]"
+            />
+            <button
+              type="submit"
+              className="bg-yellow-500 text-black font-semibold py-3 rounded-md hover:bg-yellow-400 transition-colors"
+            >
+              {t("footer.send")}
+            </button>
+          </form>
+        </div>
       </div>
 
-      {/* Section 2 - Navigation Links */}
-      <div className="max-xl:col-span-2 max-sm:col-span-full flex flex-col max-xl:items-center max-xl:justify-center justify-evenly text-lg space-y-3 max-sm:mt-20 *:max-sm:text-xl *:w-fit">
-        <Link to="/categories" className="hover:underline">
-          Categories
-        </Link>
-        <Link to="/collections" className="hover:underline">
-          Collections
-        </Link>
-        <Link to="/about-us" className="hover:underline">
-          About Us
-        </Link>
-        <Link to="/contact-us" className="hover:underline">
-          Contact Us
-        </Link>
+      <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-800 pt-6">
+        © {new Date().getFullYear()} ElBehery Marble. {t("footer.rights")}
       </div>
-
-      {/* Section 3 - Complaint Form */}
-      <div className="col-span-2 max-xl:col-span-full">
-        <form
-          onSubmit={handleSubmit}
-          className="flex flex-col max-xl:items-center max-xl:justify-center max-xl:mt-20"
-        >
-          <label htmlFor="name" className="text-xl">
-            Name
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            placeholder="Your Name"
-            required
-            className="px-5 py-3 outline-none border rounded-md mt-3 w-[50%] max-sm:w-[80%]"
-          />
-
-          <label htmlFor="message" className="mt-5 text-xl">
-            Your Inquiry
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            placeholder="If you have any complaints regarding the company, please let us know."
-            required
-            className="px-5 py-3 outline-none border rounded-md mt-3 w-[80%] max-sm:w-full max-h-24 max-sm:h-40"
-          />
-
-          <button
-            type="submit"
-            className="mt-5 bg-green-600 text-white px-5 py-3 rounded-lg hover:bg-green-700 w-fit mx-auto cursor-pointer"
-          >
-            Send Massage On WhatsApp
-          </button>
-        </form>
-      </div>
-    </div>
+    </footer>
   );
 };
 

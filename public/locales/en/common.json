@@ -1,0 +1,160 @@
+{
+  "categories": "Categories",
+  "collections": "Collections",
+  "aboutUs": "About Us",
+  "contactUs": "Contact Us",
+  "marbleGranite": "Marble & Granite",
+  "menu": "Menu",
+  "getQuote": "Get a Quote",
+  "discoverSec": {
+    "title": "Luxury in Every Vein",
+    "description": "Discover our premium selection of natural marble, crafted by nature and perfected for timeless beauty. Each piece tells a unique story, adding elegance and prestige to your space."
+  },
+  "attractiveSection": {
+    "title": "Elegant Marble Creations"
+  },
+  "marblePlaces": {
+    "luxuryHall": "Luxury Hall",
+    "modernKitchen": "Modern Kitchen",
+    "elegantStairs": "Elegant Stairs",
+    "premiumBathroom": "Premium Bathroom",
+    "hotelLobby": "Hotel Lobby",
+    "wallCladding": "Wall Cladding"
+  },
+  "servicesSection": {
+    "title": "El Behery Marble Company",
+    "description1": "El Behery Marble is a leading name in luxury marble craftsmanship. For years, we have been providing high-quality marble solutions for homes, offices, and commercial spaces. Our expertise ranges from elegant flooring to bespoke countertops, delivering timeless beauty and unmatched durability.",
+    "description2": "With a commitment to excellence, we source the finest materials and employ skilled artisans to bring your vision to life. At El Behery, every project is a masterpiece."
+  },
+  "inspir": {
+    "title": "Why Choose Us?",
+    "description": "Discover the key reasons why our marble stands out in luxury, quality, and elegance.",
+    "features": {
+      "luxury": {
+        "title": "Premium Natural Marble",
+        "desc": "We select the finest types of natural marble to ensure unmatched beauty and durability."
+      },
+      "design": {
+        "title": "Unique Designs",
+        "desc": "We offer distinctive patterns and cuts that add a touch of luxury and uniqueness to every project."
+      },
+      "craft": {
+        "title": "High Craftsmanship",
+        "desc": "Our skilled team guarantees precision in execution and flawless finishes."
+      },
+      "quality": {
+        "title": "Guaranteed Quality",
+        "desc": "We are committed to delivering long-lasting works with exceptional quality."
+      }
+    }
+  },
+  "weOffer": {
+    "title": "What We Offer",
+    "description": "A showcase of our stunning marble work, crafted to perfection."
+  },
+  "footer": {
+    "title": "ElBehery Marble",
+    "subtitle": "Luxury Marble & Granite Solutions",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
+    "collections": "Collections",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "inquiry": "Send an Inquiry",
+    "name": "Your Name",
+    "message": "Your Message",
+    "send": "Send",
+    "rights": "All rights reserved."
+  },
+  "marble": {
+    "name": "Marble",
+    "description": "Luxury natural stone for timeless elegance."
+  },
+  "granite": {
+    "name": "Granite",
+    "description": "Durable and stylish surfaces for modern spaces."
+  },
+  "viewCollection": "View Collection",
+  "select": {
+    "marble": "Marble",
+    "granite": "Granite"
+  },
+  "collect": {
+    "title": "Our Collections",
+    "desc": "Discover a handpicked selection of our finest works, crafted with precision and timeless elegance."
+  },
+  "about": {
+    "title": "About",
+    "highlight": "Us",
+    "desc1": "We are a leading company in the field of marble and granite, providing elegant and durable solutions for homes and businesses.",
+    "desc2": "With years of expertise, we take pride in delivering timeless designs that combine natural beauty with exceptional craftsmanship."
+  },
+  "alt": "About Us Image",
+  "history": {
+    "title": "Our History",
+    "desc": "A journey of excellence and craftsmanship that has grown stronger with every passing year."
+  },
+  "timeline": {
+    "2005": {
+      "year": "2005",
+      "text": "El Behery Marble was founded, laying the cornerstone of luxury stone craftsmanship."
+    },
+    "2012": {
+      "year": "2012",
+      "text": "Expanded operations with advanced machinery and a wider range of marble and granite collections."
+    },
+    "2023": {
+      "year": "2023",
+      "text": "Became a leading name in the marble industry, delivering premium quality worldwide."
+    }
+  },
+  "fourth": {
+    "title": "What Our Clients Say",
+    "desc": "Our reputation is built on trust and excellence. Here’s what our clients have to say about working with us.",
+    "testimonials": [
+      {
+        "name": "Mohamed Younes",
+        "role": "Home Owner",
+        "feedback": "El Behery Marble transformed my living room with elegance and timeless beauty. Truly a masterpiece!",
+        "img": "/persons/465938359_18372636814107407_3609180043444429634_n.jpg"
+      },
+      {
+        "name": "Adham El Sayed",
+        "role": "Interior Designer",
+        "feedback": "Working with El Behery was a smooth experience. Their quality and attention to detail are unmatched.",
+        "img": "/persons/471075349_9866967533329752_1260590968066043454_n.jpg"
+      },
+      {
+        "name": "Omar Hossam",
+        "role": "Contractor",
+        "feedback": "Reliable, premium quality, and always on time. They are my go-to for all marble projects.",
+        "img": "/persons/481336898_1379013883256407_1455848809347981663_n.jpg"
+      }
+    ]
+  },
+  "about-last": {
+    "title": "Transform Your Space with Elegance",
+    "desc": "We bring timeless marble designs crafted with precision and unmatched craftsmanship. Your vision, our expertise.",
+    "btn_quote": "Get a Quote",
+    "btn_contact": "Contact Us"
+  },
+  "contactHero": {
+    "title": "Get in Touch with <span class='text-[#8b683e]'>El Behery Marble</span>",
+    "description": "From timeless marble designs to bespoke solutions, our team is ready to bring elegance and durability to your projects. Let’s start the conversation today.",
+    "buttons": {
+      "message": "Send a Message",
+      "call": "Call Us"
+    }
+  },
+  "contact": {
+    "phone_title": "Phone",
+    "phone_detail": "+201031618693",
+    "address_title": "Address",
+    "address_detail": "Mokattam, Cairo, Egypt"
+  },
+  "contactSplit": {
+    "title": "Let's build something",
+    "highlight": "special",
+    "desc": "Our dedicated team is always ready to discuss your project, whether you're envisioning luxury marble flooring, a custom kitchen countertop, or a full commercial solution."
+  }
+}
