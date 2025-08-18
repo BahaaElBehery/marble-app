@@ -1,41 +1,61 @@
-const Inspir = () => {
-  return (
-    <div className=" w-11/12 max-w-[1920px] mx-auto mt-10 p-3">
-      {/*  */}
+import { useTranslation } from "react-i18next";
+import { FaGem, FaCogs, FaDraftingCompass, FaShieldAlt } from "react-icons/fa";
 
-      <div className="flex items-center gap-20 max-sm:flex-col max-sm:gap-5">
-        <h3 className="font-bold text-5xl max-lg:text-3xl max-sm:text-3xl">
-          Design <br /> Inspiration
-        </h3>
-        <p className="text-lg max-md:text-base max-sm:text-xs">
-          Searching for inspiration? Here{"'"}s a look at some of our favorite
-          Residential & Commercial applications using our materials.
+const Inspir = () => {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      icon: <FaGem className="text-5xl text-yellow-500 mb-4" />,
+      title: t("inspir.features.luxury.title"),
+      desc: t("inspir.features.luxury.desc"),
+    },
+    {
+      icon: <FaDraftingCompass className="text-5xl text-yellow-500 mb-4" />,
+      title: t("inspir.features.design.title"),
+      desc: t("inspir.features.design.desc"),
+    },
+    {
+      icon: <FaCogs className="text-5xl text-yellow-500 mb-4" />,
+      title: t("inspir.features.craft.title"),
+      desc: t("inspir.features.craft.desc"),
+    },
+    {
+      icon: <FaShieldAlt className="text-5xl text-yellow-500 mb-4" />,
+      title: t("inspir.features.quality.title"),
+      desc: t("inspir.features.quality.desc"),
+    },
+  ];
+
+  return (
+    <section className="max-w-[1920px] mx-auto bg-gradient-to-b from-gray-900 to-black text-white py-16 px-6">
+      <div className="mx-auto text-center mb-12">
+        <h2 className="text-4xl font-bold text-yellow-500">
+          {t("inspir.title")}
+        </h2>
+        <p className="text-gray-400 mt-3 max-w-2xl mx-auto">
+          {t("inspir.description")}
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 mt-10 max-md:grid-cols-1">
-        <div className="col-span-2 max-md:col-span-full">
-          <img
-            src="/imgs/Inspire.jpg"
-            className="w-full h-full object-cover"
-            alt=""
-          />
-        </div>
-
-        <div className="grid grid-cols-1 max-md:grid-cols-2 max-md:grid-rows-none grid-rows-2 gap-4">
-          <img
-            src="/imgs/Inspire-2.jpg"
-            alt=""
-            className="w-full h-auto max-md:w-full max-md:h-auto object-cover"
-          />
-          <img
-            src="/imgs/Inspire-3.jpg"
-            alt=""
-            className="w-full h-auto max-md:w-full max-md:h-auto object-cover"
-          />
-        </div>
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+        dir="ltr"
+      >
+        {features.map((feature, index) => (
+          <div
+            key={index}
+            className="bg-gray-800 rounded-xl p-6 text-center shadow-lg hover:shadow-yellow-500/40 hover:-translate-y-2 transform transition duration-300"
+          >
+            {feature.icon}
+            <h3 className="text-xl font-semibold text-yellow-500">
+              {feature.title}
+            </h3>
+            <p className="text-gray-400 mt-2">{feature.desc}</p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 };
 

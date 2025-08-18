@@ -13,14 +13,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El Behery Marble</title>
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <style>
+      /* Default font (English) */
+      html[lang="en"] body {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px; /* كبرته */
+        line-height: 1.7;
+        font-weight: 800; /* الوزن وسط مش رفيع */
+      }
+
+      /* If page is Arabic */
+      html[lang="ar"] body {
+        font-family: "Cairo", sans-serif;
+        font-size: 19px; /* العربي برضه أكبر */
+        font-weight: 500;
+      }
+    </style>
   </head>
-  <body class="bg-black text-white" style="font-family: Noto Sans, sans-serif">
+  <body class="bg-black text-white">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

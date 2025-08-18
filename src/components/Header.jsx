@@ -1,137 +1,191 @@
 import { Link } from "react-router";
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
-const Header = () => {
-  const [popup, setPopup] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
-  const popupRef = useRef(null);
+const MarbleHeader = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const drawerRef = useRef(null);
+  const { t, i18n } = useTranslation();
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    setPopup(!popup);
-  };
+  const linksLeft = [
+    { to: "/categories", label: t("categories") },
+    { to: "/collections", label: t("collections") },
+  ];
 
+  const linksRight = [
+    { to: "/about-us", label: t("aboutUs") },
+    { to: "/contact-us", label: t("contactUs") },
+  ];
+
+  // Close menu on outside click
   useEffect(() => {
-    function handleClickOutside(event) {
-      if (popupRef.current && !popupRef.current.contains(event.target)) {
-        setPopup(false);
-        setIsOpen(false);
+    const handleClickOutside = (e) => {
+      if (drawerRef.current && !drawerRef.current.contains(e.target)) {
+        setMenuOpen(false);
       }
-    }
-
-    if (popup) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
-
+    };
+    if (menuOpen) document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [popup]);
+  }, [menuOpen]);
 
   return (
-    <header className="fixed top-0 mx-auto max-w-[1920px] right-0 left-0 grid grid-cols-6 bg-black/50 w-full max-xl:w-screen p-2 gap-0 *:flex *:items-center xl:*:justify-evenly z-50">
-      {/* Left links */}
-      <div className="col-span-2 max-xl:hidden">
-        <Link
-          to="/categories"
-          className="transition-all duration-500 hover:scale-125 hover:font-bold text-xl"
-        >
-          Categories
-        </Link>
-        <Link
-          to="/collections"
-          className="transition-all duration-500 hover:scale-125 hover:font-bold text-xl"
-        >
-          Collections
-        </Link>
-      </div>
+    <>
+      <header
+        className="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-lg border-b border-white/10"
+        dir={i18n.language === "ar" ? "rtl" : "ltr"}
+      >
+        <div className="max-w-[1400px] mx-auto px-6 py-4 flex items-center justify-between lg:justify-center relative">
+          {/* Left Nav */}
+          <nav className="hidden lg:flex items-center gap-8 absolute left-6">
+            {linksLeft.map((link) => (
+              <Link
+                key={link.to}
+                to={link.to}
+                className="text-white hover:text-yellow-400 transition-all text-lg font-medium"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
 
-      {/* Middle - Burger and Logo */}
-      <div className="col-span-2 max-xl:col-span-full flex items-center max-xl:px-20 max-sm:px-5 justify-between w-full max-xl:flex-row-reverse">
-        {/* Burger Button */}
-        <button
-          onClick={toggleMenu}
-          className="relative cursor-pointer text-[20px] hidden max-xl:flex select-none z-50"
-        >
-          <div className="relative w-[1.3em] h-[1.3em]">
-            <span
-              className={`absolute w-8 h-0.5 bg-white left-0 transition-all duration-300 ease-in-out
-                ${isOpen ? "top-1/2 -translate-y-1/2 rotate-45" : "top-[10%]"}`}
-            ></span>
-            <span
-              className={`absolute w-8 h-0.5 bg-white left-0 transition-all duration-300 ease-in-out
-                ${isOpen ? "top-1/2 -translate-y-1/2 -rotate-45" : "top-1/2"}`}
-            ></span>
-            <span
-              className={`absolute w-8 h-0.5 bg-white left-0 transition-all duration-300 ease-in-out
-                ${isOpen ? "translate-x-[-50px] opacity-0" : "top-[90%]"}`}
-            ></span>
-          </div>
-        </button>
+          {/* Logo */}
+          <Link to="/" className="text-center">
+            <h1 className="text-white text-2xl font-bold uppercase tracking-widest">
+              El Behery
+              <span className="block text-sm text-gray-300 font-light">
+                {t("marbleGranite")}
+              </span>
+            </h1>
+          </Link>
 
-        {/* Popup Nav */}
-        {popup && (
-          <div className="fixed top-0 left-0 w-screen h-screen bg-black/60 flex items-center justify-center z-40">
-            <div
-              ref={popupRef}
-              className="flex flex-col items-center justify-center gap-10"
-            >
-              <Link
-                to="/categories"
-                className="transition-all duration-500 hover:scale-125 hover:font-bold text-2xl max-sm:text-xl"
-              >
-                Categories
-              </Link>
-              <Link
-                to="/collections"
-                className="transition-all duration-500 hover:scale-125 hover:font-bold text-2xl max-sm:text-xl"
-              >
-                Collections
-              </Link>
-              <Link
-                to="/about-us"
-                className="transition-all duration-500 hover:scale-125 hover:font-bold text-2xl max-sm:text-xl"
-              >
-                About Us
-              </Link>
-              <Link
-                to="/contact-us"
-                className="transition-all duration-500 hover:scale-125 hover:font-bold text-2xl max-sm:text-xl"
-              >
-                Contact Us
-              </Link>
-            </div>
-          </div>
-        )}
-
-        {/* Logo */}
-        <Link to="/">
-          <h1
-            className="uppercase text-center font-bold text-2xl max-lg:text-xl max-sm:text-base text-white"
-            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+          {/* Right Nav */}
+          <nav
+            className="hidden lg:flex items-center gap-8 absolute right-6"
+            dir="ltr"
           >
-            <span>El Behery</span>
-            <br />
-            <span className="text-gray-200">Marble & Granite</span>
-          </h1>
-        </Link>
-      </div>
+            {linksRight.map((link) => (
+              <Link
+                key={link.to}
+                to={link.to}
+                className="text-white hover:text-yellow-400 transition-all text-lg font-medium"
+              >
+                {link.label}
+              </Link>
+            ))}
 
-      {/* Right links */}
-      <div className="col-span-2 max-xl:hidden">
-        <Link
-          to="/about-us"
-          className="transition-all duration-500 hover:scale-125 hover:font-bold text-xl"
-        >
-          About Us
-        </Link>
-        <Link
-          to="/contact-us"
-          className="transition-all duration-500 hover:scale-125 hover:font-bold text-xl"
-        >
-          Contact Us
-        </Link>
-      </div>
-    </header>
+            <span className="w-[0.2px] rounded-full h-8 bg-slate-300"></span>
+
+            {/* Language Switcher */}
+            <div className="flex items-center gap-3">
+              {i18n.language === "en" ? (
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"
+                  alt="Arabic"
+                  className="w-8 h-6 cursor-pointer object-contain bg-center  transition"
+                  onClick={() => i18n.changeLanguage("ar")}
+                />
+              ) : (
+                <img
+                  src="https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg"
+                  alt="English"
+                  className="w-8 h-6 cursor-pointer object-cover  transition"
+                  onClick={() => i18n.changeLanguage("en")}
+                />
+              )}
+            </div>
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMenuOpen(true)}
+            className="lg:hidden text-white"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-8 w-8"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={1.5}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      {/* Mobile Drawer */}
+      <div
+        className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-40 transition-opacity ${
+          menuOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
+        }`}
+        onClick={() => setMenuOpen(false)}
+      />
+
+      <aside
+        ref={drawerRef}
+        className={`fixed top-0 left-0 h-full w-72 bg-black text-white p-6 z-50 transform transition-transform ${
+          menuOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <div className="flex justify-between items-center mb-10">
+          <h2 className="text-xl font-bold">{t("menu")}</h2>
+          <button onClick={() => setMenuOpen(false)}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-7 w-7"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={1.5}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 6l12 12M18 6l-12 12"
+              />
+            </svg>
+          </button>
+        </div>
+
+        {[...linksLeft, ...linksRight].map((link) => (
+          <Link
+            key={link.to}
+            to={link.to}
+            className="block py-2 text-lg hover:text-yellow-400 transition-all"
+            onClick={() => setMenuOpen(false)}
+          >
+            {link.label}
+          </Link>
+        ))}
+        {/* Language Switcher */}
+        <div className="flex flex-col gap-5 items-center justify-center mt-5">
+          <span className="bg-slate-200 w-[80%] h-[0.5px]"></span>
+          {i18n.language === "en" ? (
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"
+              alt="Arabic"
+              className="w-8 h-6 cursor-pointer object-contain bg-center  transition"
+              onClick={() => i18n.changeLanguage("ar")}
+            />
+          ) : (
+            <img
+              src="https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg"
+              alt="English"
+              className="w-8 h-6 cursor-pointer object-cover  transition"
+              onClick={() => i18n.changeLanguage("en")}
+            />
+          )}
+        </div>
+      </aside>
+    </>
   );
 };
 
-export default Header;
+export default MarbleHeader;
