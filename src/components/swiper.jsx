@@ -13,14 +13,14 @@ const Swee = () => {
         slidesPerView={1}
         className="w-full"
       >
-        {marble.map((e) => (
+        {marble.map((e, i) => (
           <SwiperSlide key={e.id}>
             <div>
               <img
                 src={e.img}
                 alt={e.title}
                 className="w-full h-[800px] object-cover"
-                loading="lazy"
+                loading={i < 2 ? "eager" : "lazy"}
               />
             </div>
           </SwiperSlide>
