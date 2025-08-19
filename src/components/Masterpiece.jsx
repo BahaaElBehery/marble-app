@@ -159,6 +159,7 @@ const Masterpiece = ({ setMarbel }) => {
             <motion.img
               src={cat.img}
               alt={cat.name}
+              loading="lazy"
               className="absolute inset-0 w-full h-full object-cover"
               animate={{
                 scale: isActive ? 1.1 : 1,

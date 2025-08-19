@@ -20,6 +20,7 @@ const Swee = () => {
                 src={e.img}
                 alt={e.title}
                 className="w-full h-[800px] object-cover"
+                loading="lazy"
               />
             </div>
           </SwiperSlide>

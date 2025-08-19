@@ -31,6 +31,7 @@ const MContent = () => {
                 <img
                   src={e.img || e.image}
                   alt={e.name}
+                  loading="lazy"
                   className="w-full h-[200px] object-cover transform transition-transform duration-700 group-hover:scale-110"
                 />
 

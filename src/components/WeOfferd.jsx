@@ -34,6 +34,7 @@ const WeOfferd = () => {
             <img
               key={index}
               src={src}
+              loading="lazy"
               alt={`Marble ${index + 1}`}
               className="w-full rounded-lg shadow-lg hover:opacity-90 hover:scale-[1.02] transition-transform duration-500"
             />
