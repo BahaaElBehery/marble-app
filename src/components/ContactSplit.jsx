@@ -37,6 +37,7 @@ const ContactSplit = () => {
           <img
             src="https://scontent.fcai26-1.fna.fbcdn.net/v/t39.30808-6/505675868_1143772601101939_3805707370655912499_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nOqNiLb8Y2cQ7kNvwGWFyCh&_nc_oc=Admrq30P_iNZJNKWh57zy2XpnouHHT53Ws3ip_aezFATUPzWvf0V36xNkOVE1og503g&_nc_zt=23&_nc_ht=scontent.fcai26-1.fna&_nc_gid=PwWMm8lmzG38Y7vXFCUyzg&oh=00_AfX9gnTR39dhguUoQDdVmN8kerHbJGQTTb9voQOiMNKsPQ&oe=68A7A1BA"
             alt="El Behery Marble"
+            loading="lazy"
             className="w-full h-[400px] object-cover"
           />
         </motion.div>

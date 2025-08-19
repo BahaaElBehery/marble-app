@@ -24,6 +24,7 @@ const FistSec = () => {
             <img
               src="https://scontent.fcai26-1.fna.fbcdn.net/v/t39.30808-6/487940312_1088561349956398_1933730518627078367_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gTSqfWWpag4Q7kNvwHvOonO&_nc_oc=AdkY6L_8XLh7Edkz1vwuBGUrsvEnygR5Van6J1TsbR6sLSkH6dEDG6jEJ-L6Bykdlec&_nc_zt=23&_nc_ht=scontent.fcai26-1.fna&_nc_gid=Vps3z2gQCiG9IfP7xI3NEQ&oh=00_AfUP0Y_bngXej2mBjgP0N354XaSEJBZpNRnNQpN-w-k67A&oe=68A63F76"
               alt={t("alt")}
+              loading="lazy"
               className="w-full h-[350px] object-cover transform hover:scale-105 transition-transform duration-500"
             />
           </div>

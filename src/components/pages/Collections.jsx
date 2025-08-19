@@ -35,6 +35,7 @@ const Collections = () => {
             >
               <img
                 src={item.img}
+                loading="lazy"
                 alt={`collection-${item.id}`}
                 className="w-full h-[400px] object-cover object-center bg-center group-hover:scale-110 transition-transform duration-500"
               />

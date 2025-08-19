@@ -3,290 +3,384 @@
     "id": 1,
     "title": "Emperador Spain",
     "img": "/Cat-Marble/0391.jpg",
-    "description": "A luxurious dark brown marble with striking white and light brown veining. Ideal for elegant interiors and statement pieces."
+    "description": "A luxurious dark brown marble with striking white and light brown veining. Ideal for elegant interiors and statement pieces.",
+    "title2": "إمبيرادور إسباني",
+    "description2": "رخام بني داكن فاخر مع عروق بيضاء وبنية فاتحة مميزة، مثالي للديكورات الداخلية الأنيقة وقطع الديكور المميزة."
   },
   {
     "id": 2,
     "title": "Perlato Siciliano",
     "img": "/Cat-Marble/perlato-sicilia-marble-tile.jpg",
-    "description": "A classic beige marble with subtle golden veins, offering a timeless and sophisticated look for flooring and walls."
+    "description": "A classic beige marble with subtle golden veins, offering a timeless and sophisticated look for flooring and walls.",
+    "title2": "بيرلاتو سيسيليانو",
+    "description2": "رخام بيج كلاسيكي بعروق ذهبية خفيفة، يمنح مظهراً راقياً وخالداً للأرضيات والجدران."
   },
   {
     "id": 3,
     "title": "Fleto",
     "img": "/Cat-Marble/fletto.jpg",
-    "description": "A soft beige marble with delicate veining, perfect for creating warm and inviting spaces."
+    "description": "A soft beige marble with delicate veining, perfect for creating warm and inviting spaces.",
+    "title2": "فليتو",
+    "description2": "رخام بيج ناعم بعروق دقيقة، مثالي لخلق مساحات دافئة ومرحبة."
   },
   {
     "id": 4,
     "title": "Breccia Daino",
     "img": "https://furmanek24.pl/foto/967/1662448944.jpg",
-    "description": "A unique beige marble with intricate brown veins, adding character and elegance to any design."
+    "description": "A unique beige marble with intricate brown veins, adding character and elegance to any design.",
+    "title2": "بريشيا داينو",
+    "description2": "رخام بيج مميز بعروق بنية معقدة، يضيف شخصية وأناقة لأي تصميم."
   },
   {
     "id": 5,
     "title": "Trieste",
     "img": "/Cat-Marble/triesta-marble-tile-6774-1B.jpg",
-    "description": "A refined light beige marble with subtle textures, ideal for luxurious flooring and wall applications."
+    "description": "A refined light beige marble with subtle textures, ideal for luxurious flooring and wall applications.",
+    "title2": "ترييستي",
+    "description2": "رخام بيج فاتح أنيق بملمس ناعم، مثالي للأرضيات والجدران الفاخرة."
   },
   {
     "id": 6,
     "title": "Silvia",
     "img": "/Cat-Marble/silvia-marble-500x500.webp",
-    "description": "A warm-toned Egyptian marble known for its durability and natural beauty, widely used in interiors and exteriors."
+    "description": "A warm-toned Egyptian marble known for its durability and natural beauty, widely used in interiors and exteriors.",
+    "title2": "سلفيا",
+    "description2": "رخام مصري ذو لون دافئ مشهور بمتانته وجماله الطبيعي، يُستخدم بكثرة في الديكورات الداخلية والخارجية."
   },
   {
     "id": 7,
     "title": "Carrara",
     "img": "/Cat-Marble/carara.jpg",
-    "description": "An iconic Italian white marble with soft grey veins, a top choice for countertops, walls, and flooring in luxurious spaces."
+    "description": "An iconic Italian white marble with soft grey veins, a top choice for countertops, walls, and flooring in luxurious spaces.",
+    "title2": "كارارا",
+    "description2": "رخام أبيض إيطالي شهير بعروق رمادية ناعمة، من الخيارات المفضلة للكونترتوب والجدران والأرضيات في المساحات الفاخرة."
   },
   {
     "id": 8,
     "title": "Negro Marquina",
     "img": "https://palorosa.com/en/wp-content/uploads/sites/13/2025/02/NEGRO-MARQUINA-60X120-en-BUai8hYIbTCGYdLm.jpg",
-    "description": "A dramatic black marble with bold white veining, adding sophistication and contrast to any design."
+    "description": "A dramatic black marble with bold white veining, adding sophistication and contrast to any design.",
+    "title2": "نيجرو ماركينا",
+    "description2": "رخام أسود مميز بعروق بيضاء جريئة، يضيف فخامة وتبايناً لأي تصميم."
   },
   {
     "id": 9,
     "title": "Piccino Classic",
     "img": "https://media.amtico.com/image/upload/c_thumb,g_center,w_680,h_680,f_auto/v1713960931/PIM/Products/AR0SOM10%20-%20Bianca%20Classic%20Marble/ar0som10-swatch_wh_900x900.jpg",
-    "description": "A charming pink marble with delicate veining, offering a soft and elegant touch to interiors."
+    "description": "A charming pink marble with delicate veining, offering a soft and elegant touch to interiors.",
+    "title2": "بيتشينو كلاسيك",
+    "description2": "رخام وردي جذاب بعروق ناعمة، يمنح لمسة أنيقة ورقيقة للديكورات الداخلية."
   },
   {
     "id": 10,
     "title": "Light Emperador",
     "img": "/Cat-Marble/EMPERADOR-LIGHT-MARBLE.webp",
-    "description": "A warm-toned brown marble with intricate veining, perfect for a luxurious and natural look."
+    "description": "A warm-toned brown marble with intricate veining, perfect for a luxurious and natural look.",
+    "title2": "إمبيرادور فاتح",
+    "description2": "رخام بني فاتح بدفء وعروق معقدة، مثالي لمظهر فاخر وطبيعي."
   },
-
   {
     "id": 11,
     "title": "Menia Beige",
     "img": "/Cat-Marble/beige-tivoli-marble-500x500.webp",
-    "description": "A soft beige marble with a natural and warm appearance, ideal for elegant flooring and walls."
+    "description": "A soft beige marble with a natural and warm appearance, ideal for elegant flooring and walls.",
+    "title2": "مينا بيج",
+    "description2": "رخام بيج ناعم بمظهر طبيعي ودافئ، مثالي للأرضيات والجدران الأنيقة."
   },
   {
     "id": 12,
     "title": "Katrina Beige",
     "img": "/Cat-Marble/katrina-marble-slabs-tiles-egypt-brown-marble-p816442-1b.jpg",
-    "description": "A creamy beige marble with delicate veining, perfect for adding a touch of sophistication to interiors."
+    "description": "A creamy beige marble with delicate veining, perfect for adding a touch of sophistication to interiors.",
+    "title2": "كاترينا بيج",
+    "description2": "رخام بيج كريمي بعروق رقيقة، مثالي لإضافة لمسة من الرقي للديكورات الداخلية."
   },
   {
     "id": 13,
     "title": "Tavira Marble",
     "img": "/Cat-Marble/Trevera-800x800.webp",
-    "description": "A refined marble with unique patterns, bringing a sense of luxury and exclusivity to any space."
+    "description": "A refined marble with unique patterns, bringing a sense of luxury and exclusivity to any space.",
+    "title2": "تافيرا ماربل",
+    "description2": "رخام أنيق بأنماط مميزة، يمنح إحساساً بالفخامة والتفرّد لأي مساحة."
   },
   {
     "id": 14,
     "title": "Green India",
     "img": "/Cat-Marble/20200305_145047-001.jpg",
-    "description": "A stunning deep green marble with white veining, perfect for bold and elegant designs."
+    "description": "A stunning deep green marble with white veining, perfect for bold and elegant designs.",
+    "title2": "جرين إنديا",
+    "description2": "رخام أخضر غامق مذهل بعروق بيضاء، مثالي للتصاميم الجريئة والأنيقة."
   },
   {
     "id": 15,
     "title": "Royal Cream",
     "img": "https://tileswale.com/uploads/o_products/163730832253_8734_267868.JPG",
-    "description": "A smooth cream-colored marble with subtle veining, offering a classic and timeless appeal."
+    "description": "A smooth cream-colored marble with subtle veining, offering a classic and timeless appeal.",
+    "title2": "رويال كريم",
+    "description2": "رخام كريمي ناعم بعروق خفيفة، يمنح جاذبية كلاسيكية وخالدة."
   },
   {
     "id": 16,
     "title": "Badal",
     "img": "https://www.marnite.co/wp-content/uploads/2018/06/Marble-Badal-Grey.jpg",
-    "description": "A sophisticated gray marble with soft veining, ideal for modern and contemporary interiors."
+    "description": "A sophisticated gray marble with soft veining, ideal for modern and contemporary interiors.",
+    "title2": "بدل",
+    "description2": "رخام رمادي أنيق بعروق ناعمة، مثالي للديكورات الحديثة والمعاصرة."
   },
   {
     "id": 17,
     "title": "China Verona",
     "img": "/Cat-Marble/China-Verona-2-1.webp",
-    "description": "A beige marble with a polished finish, perfect for enhancing the beauty of any interior space."
+    "description": "A beige marble with a polished finish, perfect for enhancing the beauty of any interior space.",
+    "title2": "تشاينا فيرونا",
+    "description2": "رخام بيج بلمسة لامعة، مثالي لإبراز جمال أي مساحة داخلية."
   },
   {
     "id": 18,
     "title": "Sofitel Gold",
     "img": "https://i.pinimg.com/736x/c2/74/d9/c274d96a7d738ceb21ba7c0a8c122699.jpg",
-    "description": "A golden-hued marble with luxurious veining, creating a regal and elegant atmosphere."
+    "description": "A golden-hued marble with luxurious veining, creating a regal and elegant atmosphere.",
+    "title2": "سوفيتيل جولد",
+    "description2": "رخام ذهبي فاخر بعروق مميزة، يخلق جواً ملكياً وأنيقاً."
   },
   {
     "id": 19,
     "title": "Spanish Beige",
     "img": "https://www.rkmarble.com/wp-content/uploads/2023/02/206-690X435_PRODUCT-Spanish-Beige-V2.jpg",
-    "description": "A warm beige marble with a smooth texture, ideal for classic and modern designs alike."
+    "description": "A warm beige marble with a smooth texture, ideal for classic and modern designs alike.",
+    "title2": "سبانيش بيج",
+    "description2": "رخام بيج دافئ بملمس ناعم، مثالي للتصاميم الكلاسيكية والحديثة على حد سواء."
   },
   {
     "id": 20,
     "title": "Ocean Grey",
     "img": "https://cdn.prod.website-files.com/5e1cf94f2b50942f7e1af54d/627593c51c2ba6eff4361a2d_X3080-112x65-2CM%20OCEAN%20GREY-POLISHED-THUMBNAIL.jpg",
-    "description": "A sophisticated gray marble with subtle movement, bringing depth and character to any space."
+    "description": "A sophisticated gray marble with subtle movement, bringing depth and character to any space.",
+    "title2": "أوشن جراي",
+    "description2": "رخام رمادي أنيق بحركة لونية خفيفة، يضيف عمقاً وشخصية لأي مساحة."
   },
   {
     "id": 21,
     "title": "Rosso Levanto",
     "img": "https://nexiontiles.com/wp-content/uploads/2021/06/rosso-levanto-naturale-1024x512.jpg",
-    "description": "A striking deep red marble with white veins, adding warmth and richness to interiors."
+    "description": "A striking deep red marble with white veins, adding warmth and richness to interiors.",
+    "title2": "روسو ليفانتو",
+    "description2": "رخام أحمر داكن مميز بعروق بيضاء، يضيف دفئاً وغنى للديكورات الداخلية."
   },
   {
     "id": 22,
     "title": "Jade Green",
     "img": "https://rockmillstone.com/wp-content/uploads/2024/03/JadegreenH_Bookmatch_Horizontal-B.jpg",
-    "description": "A luxurious green marble with a unique texture, perfect for statement pieces and bold interiors."
+    "description": "A luxurious green marble with a unique texture, perfect for statement pieces and bold interiors.",
+    "title2": "جاد جرين",
+    "description2": "رخام أخضر فاخر بملمس مميز، مثالي للقطع البارزة والتصاميم الجريئة."
   },
   {
     "id": 23,
     "title": "Macaubas",
     "img": "/Cat-Marble/azul-macaubas.jpg",
-    "description": "An exotic blue marble with striking veining, adding a dramatic and elegant touch to any design."
+    "description": "An exotic blue marble with striking veining, adding a dramatic and elegant touch to any design.",
+    "title2": "ماكوباس",
+    "description2": "رخام أزرق فاخر بعروق ملفتة، يضيف لمسة درامية وأنيقة لأي تصميم."
   },
   {
     "id": 24,
     "title": "Red Onyx",
     "img": "/Cat-Marble/red-onyx.jpg",
-    "description": "A translucent red onyx with rich tones, ideal for creating luxurious and artistic interiors."
+    "description": "A translucent red onyx with rich tones, ideal for creating luxurious and artistic interiors.",
+    "title2": "ريد أونيكس",
+    "description2": "أونيكس أحمر شفاف بألوان غنية، مثالي لتصميمات داخلية فاخرة وفنية."
   },
   {
     "id": 25,
     "title": "Galala Beige",
     "img": "/Cat-Marble/GP01148_b.jpg",
-    "description": "A popular Egyptian marble with a soft beige tone, suitable for both modern and classic applications."
+    "description": "A popular Egyptian marble with a soft beige tone, suitable for both modern and classic applications.",
+    "title2": "جلالة بيج",
+    "description2": "رخام مصري مشهور بلونه البيج الناعم، مناسب للتطبيقات الحديثة والكلاسيكية."
   },
   {
     "id": 26,
     "title": "Arabescato",
     "img": "/Cat-Marble/Marble-55-of-93.webp",
-    "description": "A high-end Italian marble with bold veining, perfect for elegant countertops and walls."
+    "description": "A high-end Italian marble with bold veining, perfect for elegant countertops and walls.",
+    "title2": "أرابيسكاتو",
+    "description2": "رخام إيطالي فاخر بعروق بارزة، مثالي للكونترتوب والجدران الأنيقة."
   },
   {
     "id": 27,
     "title": "Portoro",
     "img": "/Cat-Marble/diamond-porotoro-hi-glossy-600x1200-f3.jpg",
-    "description": "A luxurious black marble with golden veins, ideal for creating a dramatic and opulent look."
+    "description": "A luxurious black marble with golden veins, ideal for creating a dramatic and opulent look.",
+    "title2": "بورتورو",
+    "description2": "رخام أسود فاخر بعروق ذهبية، مثالي لخلق مظهر درامي وفخم."
   },
   {
     "id": 28,
     "title": "Greige",
     "img": "/Cat-Marble/d3d_default_75EG.jpg",
-    "description": "A contemporary mix of gray and beige tones, offering a stylish and neutral foundation for any design."
+    "description": "A contemporary mix of gray and beige tones, offering a stylish and neutral foundation for any design.",
+    "title2": "جريج",
+    "description2": "مزيج عصري من درجات الرمادي والبيج، يوفر قاعدة أنيقة ومحايدة لأي تصميم."
   },
   {
     "id": 29,
     "title": "Venice Brown",
     "img": "/Cat-Marble/weinisizong.webp",
-    "description": "A deep brown marble with elegant veining, perfect for creating warm and inviting spaces."
+    "description": "A deep brown marble with elegant veining, perfect for creating warm and inviting spaces.",
+    "title2": "فينيس براون",
+    "description2": "رخام بني داكن بعروق أنيقة، مثالي لخلق مساحات دافئة ومرحبة."
   },
   {
     "id": 30,
     "title": "Galaxy Blue",
     "img": "/Cat-Marble/blue-galaxy.jpg",
-    "description": "A unique blue marble with celestial patterns, bringing a sense of sophistication and exclusivity."
+    "description": "A unique blue marble with celestial patterns, bringing a sense of sophistication and exclusivity.",
+    "title2": "جالاكسي بلو",
+    "description2": "رخام أزرق فريد بنقوش سماوية، يمنح إحساساً بالفخامة والتميز."
   },
-
   {
     "id": 31,
-    "title": "Cinderella Grey",
+    "title": "Spanish Rosetta",
     "img": "/Cat-Marble/2134-202203242301211103.jpg",
-    "description": "A sophisticated grey marble with a smooth, consistent texture, perfect for modern and minimalist interiors."
+    "description": "A charming marble with soft pink tones and flowing veins, ideal for decorative applications.",
+    "title2": "روزيته إسباني",
+    "description2": "رخام أنيق بدرجات وردية ناعمة وعروق انسيابية، مثالي للتطبيقات الديكورية."
   },
   {
     "id": 32,
-    "title": "Panda White",
+    "title": "Grey William",
     "img": "/Cat-Marble/167-690X435_PRODUCT-Panda-White.jpg",
-    "description": "A stunning white marble with bold black veins, creating a striking contrast for luxury spaces."
+    "description": "A stylish grey marble with subtle white veining, offering a sleek and contemporary appearance.",
+    "title2": "جراي ويليام",
+    "description2": "رخام رمادي أنيق بعروق بيضاء خفيفة، يمنح مظهراً عصرياً راقياً."
   },
   {
     "id": 33,
-    "title": "Jerusalem Gold",
+    "title": "Verde Guatemala",
     "img": "/Cat-Marble/marble_Jerusalem-Gold_mnmtpRvC9oXJLMLGNDSa.jpg",
-    "description": "A warm golden marble with a rich texture, adding a touch of elegance to both classic and contemporary designs."
+    "description": "A rich green marble with dynamic patterns, perfect for bold and luxurious spaces.",
+    "title2": "فيردي جواتيمالا",
+    "description2": "رخام أخضر غني بنقوش ديناميكية، مثالي للمساحات الجريئة والفاخرة."
   },
   {
     "id": 34,
-    "title": "Crema Marfil",
+    "title": "Sunny Light",
     "img": "/Cat-Marble/marmol-crema-primera-pulycort-1.jpg",
-    "description": "A premium Spanish marble with soft beige tones and subtle veining, ideal for timeless interiors."
+    "description": "A light beige marble with golden undertones, bringing warmth and elegance to interiors.",
+    "title2": "صني لايت",
+    "description2": "رخام بيج فاتح بلمسات ذهبية، يضيف دفئاً وأناقة للتصاميم الداخلية."
   },
   {
     "id": 35,
-    "title": "Rosa Aurora",
+    "title": "Botticino",
     "img": "/Cat-Marble/Rosa-Aurora-Macchia-Vecchia-scaled.jpg",
-    "description": "A delicate pink marble with soft waves of white and beige, bringing warmth and elegance to any space."
+    "description": "A creamy beige marble with delicate veins, renowned for its classic appeal.",
+    "title2": "بوتيتشينو",
+    "description2": "رخام بيج كريمي بعروق رقيقة، مشهور بجاذبيته الكلاسيكية."
   },
   {
     "id": 36,
-    "title": "Red Cream",
+    "title": "Emperador Dark",
     "img": "https://tileswale.com/uploads/o_products/163730832253_8734_267868.JPG",
-    "description": "A unique blend of red and cream tones, offering a warm and inviting aesthetic."
+    "description": "A deep brown marble with striking white veins, exuding luxury and sophistication.",
+    "title2": "إمبيرادور دارك",
+    "description2": "رخام بني داكن بعروق بيضاء واضحة، يفيض فخامة ورقياً."
   },
   {
     "id": 37,
-    "title": "Coffee Brown",
+    "title": "Rosso Verona",
     "img": "/Cat-Marble/coffee-brown.jpg",
-    "description": "A deep brown marble with subtle golden veins, perfect for adding richness and warmth to interiors."
+    "description": "A warm red marble with consistent color and subtle veining, ideal for bold designs.",
+    "title2": "روسو فيرونا",
+    "description2": "رخام أحمر دافئ بلون متجانس وعروق خفيفة، مثالي للتصاميم الجريئة."
   },
   {
     "id": 38,
-    "title": "Nero China",
+    "title": "Bianco Carrara",
     "img": "/Cat-Marble/Nero-Marquina-Marble.webp",
-    "description": "A sleek black marble with delicate white veins, creating a bold and luxurious statement."
+    "description": "A famous white marble with fine grey veins, widely used for timeless elegance.",
+    "title2": "بيانكو كارارا",
+    "description2": "رخام أبيض شهير بعروق رمادية دقيقة، يُستخدم على نطاق واسع لإطلالة خالدة."
   },
   {
     "id": 39,
-    "title": "Sunny White",
+    "title": "Breccia Aurora",
     "img": "/Cat-Marble/satuario-classic-marble-500x500.webp",
-    "description": "A bright white marble with subtle grey veining, perfect for classic and contemporary spaces alike."
+    "description": "A unique marble with warm beige and pink tones, accented by bold veins.",
+    "title2": "بريشيا أوروْرا",
+    "description2": "رخام مميز بدرجات البيج والوردي الدافئة مع عروق بارزة."
   },
   {
     "id": 40,
-    "title": "Marmara White",
+    "title": "Daino Reale",
     "img": "/Cat-Marble/marmara-white-(1).jpg",
-    "description": "A distinctive white marble with linear grey streaks, offering a modern and structured look."
+    "description": "An elegant beige marble with wavy veins, adding movement and warmth to interiors.",
+    "title2": "داينو ريال",
+    "description2": "رخام بيج أنيق بعروق متموجة، يضيف حركة ودفئاً للتصاميم الداخلية."
   },
   {
     "id": 41,
-    "title": "Jura Beige",
+    "title": "Portoro",
     "img": "/Cat-Marble/Jura-Beige-Limestone.jpg",
-    "description": "A durable beige limestone with natural fossilized textures, ideal for both indoor and outdoor applications."
+    "description": "A luxurious black marble with dramatic golden veins, perfect for statement designs.",
+    "title2": "بورتورو",
+    "description2": "رخام أسود فاخر بعروق ذهبية لافتة، مثالي للتصاميم المميزة."
   },
   {
     "id": 42,
-    "title": "Moon Cream",
+    "title": "Thassos White",
     "img": "/Cat-Marble/Moon-Cream-1-1-scaled.jpg",
-    "description": "A smooth cream marble with soft variations, bringing warmth and elegance to interiors."
+    "description": "A pure white marble with a crystalline appearance, offering unmatched brightness.",
+    "title2": "ثاسوس وايت",
+    "description2": "رخام أبيض نقي بمظهر كريستالي، يمنح إشراقاً لا مثيل له."
   },
   {
     "id": 43,
-    "title": "Crystal Brown",
+    "title": "Rosso Levanto",
     "img": "/Cat-Marble/Crystal-Brown-Marble.webp",
-    "description": "A rich brown marble with subtle crystal-like patterns, perfect for a refined and natural look."
+    "description": "A deep red marble with white and green veins, full of character and richness.",
+    "title2": "روسو ليفانتو",
+    "description2": "رخام أحمر داكن بعروق بيضاء وخضراء، مليء بالشخصية والغنى."
   },
   {
     "id": 44,
-    "title": "Shell Beige",
+    "title": "Marron Imperial",
     "img": "/Cat-Marble/ShellBeigeMarble2020112219846.jpg",
-    "description": "A soft beige marble with a delicate, shell-like texture, ideal for classic and elegant interiors."
+    "description": "A rich brown marble with elegant veining, bringing warmth to sophisticated interiors.",
+    "title2": "مارون إمبريال",
+    "description2": "رخام بني غني بعروق أنيقة، يضيف دفئاً للتصاميم الراقية."
   },
   {
     "id": 45,
-    "title": "Snow White",
+    "title": "Crema Valencia",
     "img": "/Cat-Marble/snow-white-antique.jpg",
-    "description": "A pristine white marble with a pure, clean appearance, perfect for luxurious and contemporary designs."
+    "description": "A warm beige marble with golden and red veins, creating vibrant surfaces.",
+    "title2": "كريما فالنسيا",
+    "description2": "رخام بيج دافئ بعروق ذهبية وحمراء، يخلق أسطحاً نابضة بالحياة."
   },
   {
     "id": 46,
-    "title": "Sofia Beige",
+    "title": "Nero Marquina",
     "img": "/Cat-Marble/sofia-beige-500x500.webp",
-    "description": "A warm beige marble with subtle textures, ideal for elegant and sophisticated interiors."
+    "description": "A striking black marble with sharp white veining, ideal for luxurious contrasts.",
+    "title2": "نيرو ماركينا",
+    "description2": "رخام أسود مذهل بعروق بيضاء واضحة، مثالي للتباينات الفاخرة."
   },
   {
     "id": 47,
-    "title": "Dora Grey",
+    "title": "Giallo Siena",
     "img": "/Cat-Marble/2429_13829.jpg",
-    "description": "A modern grey marble with a refined look, suitable for contemporary and minimalist designs."
+    "description": "A golden yellow marble with dramatic veining, perfect for unique statement pieces.",
+    "title2": "جيالو سيينا",
+    "description2": "رخام أصفر ذهبي بعروق بارزة، مثالي للقطع المميزة والفريدة."
   },
   {
     "id": 48,
-    "title": "Ariston",
+    "title": "Pietra Grey",
     "img": "/Cat-Marble/Ariston-marble-2.jpg",
-    "description": "A high-end white marble with soft grey veins, delivering a luxurious and sophisticated aesthetic."
+    "description": "A refined grey marble with thin white veining, offering understated elegance.",
+    "title2": "بييترا جراي",
+    "description2": "رخام رمادي راقٍ بعروق بيضاء رفيعة، يمنح أناقة بسيطة وراقية."
   }
 ]
