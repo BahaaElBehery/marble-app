@@ -32,7 +32,7 @@ const MarbleHeader = () => {
     <>
       <header
         className="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-lg border-b border-white/10"
-        dir={i18n.language === "ar" ? "rtl" : "ltr"}
+        dir="ltr"
       >
         <div className="max-w-[1400px] mx-auto px-6 py-4 flex items-center justify-between lg:justify-center relative">
           {/* Left Nav */}
@@ -50,8 +50,8 @@ const MarbleHeader = () => {
 
           {/* Logo */}
           <Link to="/" className="text-center">
-            <h1 className="text-white text-2xl font-bold uppercase tracking-widest">
-              El Behery
+            <h1 className="text-white text-2xl max-sm:text-xl font-bold uppercase tracking-widest">
+              {t("El Behery")}
               <span className="block text-sm text-gray-300 font-light">
                 {t("marbleGranite")}
               </span>
@@ -96,25 +96,46 @@ const MarbleHeader = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={() => setMenuOpen(true)}
-            className="lg:hidden text-white"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={1.5}
+          <div className="flex items-center justify-center gap-3">
+            <button
+              onClick={() => setMenuOpen(true)}
+              className="lg:hidden text-white"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+            {/* Language Switcher */}
+            <span className="bg-slate-200 w-[0.5px] h-[30px]"></span>
+            <div className="">
+              {i18n.language === "en" ? (
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"
+                  alt="Arabic"
+                  className="w-8 h-6 cursor-pointer object-contain bg-center  transition"
+                  onClick={() => i18n.changeLanguage("ar")}
+                />
+              ) : (
+                <img
+                  src="https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg"
+                  alt="English"
+                  className="w-8 h-6 cursor-pointer object-cover  transition"
+                  onClick={() => i18n.changeLanguage("en")}
+                />
+              )}
+            </div>
+          </div>
         </div>
       </header>
 
@@ -164,25 +185,7 @@ const MarbleHeader = () => {
             {link.label}
           </Link>
         ))}
-        {/* Language Switcher */}
-        <div className="flex flex-col gap-5 items-center justify-center mt-5">
-          <span className="bg-slate-200 w-[80%] h-[0.5px]"></span>
-          {i18n.language === "en" ? (
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"
-              alt="Arabic"
-              className="w-8 h-6 cursor-pointer object-contain bg-center  transition"
-              onClick={() => i18n.changeLanguage("ar")}
-            />
-          ) : (
-            <img
-              src="https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg"
-              alt="English"
-              className="w-8 h-6 cursor-pointer object-cover  transition"
-              onClick={() => i18n.changeLanguage("en")}
-            />
-          )}
-        </div>
+        {/*  */}
       </aside>
     </>
   );

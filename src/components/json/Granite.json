@@ -2,290 +2,385 @@
   {
     "id": 49,
     "title": "Royal Red",
+    "title2": "رويال ريد",
     "image": "https://egyptianmarblegranite.com/wp-content/uploads/2023/08/royal-red-granite-750x650.jpg",
-    "description": "Deep red granite with subtle black and white speckles, ideal for countertops and flooring."
+    "description": "Deep red granite with subtle black and white speckles, ideal for countertops and flooring.",
+    "description2": "جرانيت أحمر داكن مع نقاط سوداء وبيضاء خفيفة، مثالي للأسطح والأرضيات."
   },
   {
     "id": 50,
     "title": "Galaxy",
+    "title2": "جلاكسي",
     "image": "https://d1paxro4wyfm9z.cloudfront.net/a/4/d/3/e/0/black-galaxy-795x400.jpg",
-    "description": "Black granite with shimmering gold or white flecks, perfect for adding a touch of elegance."
+    "description": "Black granite with shimmering gold or white flecks, perfect for adding a touch of elegance.",
+    "description2": "جرانيت أسود يحتوي على لمعان ذهبي أو أبيض، مثالي لإضافة لمسة من الفخامة."
   },
   {
     "id": 51,
     "title": "Black Aswan",
+    "title2": "أسوان الأسود",
     "image": "https://pic.stonecontact.com/picture/natural-stone/aswan-black-granite-tile-3947-2B.JPG",
-    "description": "Dark black granite known for its durability and sleek appearance, commonly used in monuments and countertops."
+    "description": "Dark black granite known for its durability and sleek appearance, commonly used in monuments and countertops.",
+    "description2": "جرانيت أسود داكن يتميز بالمتانة والمظهر الأنيق، يُستخدم عادةً في النُصُب التذكارية والأسطح."
   },
   {
     "id": 52,
     "title": "Red Aswan",
+    "title2": "أسوان الأحمر",
     "image": "/Cat-Marble/red-aswan-21600.jpeg",
-    "description": "Rich red granite with black and gray grains, often used in decorative applications."
+    "description": "Rich red granite with black and gray grains, often used in decorative applications.",
+    "description2": "جرانيت أحمر غني مع حبيبات سوداء ورمادية، يُستخدم غالبًا في التطبيقات الزخرفية."
   },
   {
     "id": 53,
     "title": "Bardesio",
+    "title2": "بارديسيو",
     "image": "/Cat-Marble/1(13).jpeg",
-    "description": "Granite featuring a mix of gray, white, and black tones, suitable for various interior designs."
+    "description": "Granite featuring a mix of gray, white, and black tones, suitable for various interior designs.",
+    "description2": "جرانيت يجمع بين درجات الرمادي والأبيض والأسود، مناسب لمختلف التصاميم الداخلية."
   },
   {
     "id": 54,
     "title": "Labrador",
+    "title2": "لابرادور",
     "image": "/Cat-Marble/03692-swatch.jpg",
-    "description": "Dark granite with blue and green iridescent flecks, offering a unique and luxurious look."
+    "description": "Dark granite with blue and green iridescent flecks, offering a unique and luxurious look.",
+    "description2": "جرانيت داكن يحتوي على نقاط لامعة زرقاء وخضراء، يمنح مظهرًا فريدًا وفخمًا."
   },
   {
     "id": 55,
     "title": "Fersan",
+    "title2": "فرسان",
     "image": "/Cat-Marble/light-fersan-21603.jpeg",
-    "description": "Light-colored granite with intricate patterns, ideal for flooring and wall cladding."
+    "description": "Light-colored granite with intricate patterns, ideal for flooring and wall cladding.",
+    "description2": "جرانيت فاتح اللون ذو نقوش متداخلة، مثالي للأرضيات وتكسية الجدران."
   },
   {
     "id": 56,
     "title": "Verdi",
+    "title2": "فيردي",
     "image": "/Cat-Marble/dark-verde-ghazal.webp",
-    "description": "Green granite with dark veins, bringing a natural feel to any space."
+    "description": "Green granite with dark veins, bringing a natural feel to any space.",
+    "description2": "جرانيت أخضر مع عروق داكنة، يضفي لمسة طبيعية على أي مساحة."
   },
   {
     "id": 57,
     "title": "Gandola",
+    "title2": "جاندولا",
     "image": "/Cat-Marble/GandolaGranitegrey2019118145348.jpg",
-    "description": "Granite with a harmonious blend of beige, brown, and gray hues, versatile for various applications."
+    "description": "Granite with a harmonious blend of beige, brown, and gray hues, versatile for various applications.",
+    "description2": "جرانيت بمزيج متناغم من البيج والبني والرمادي، متعدد الاستخدامات في مختلف التطبيقات."
   },
   {
     "id": 58,
     "title": "White Halayeb",
+    "title2": "حلائب الأبيض",
     "image": "/Cat-Marble/White-Halayeb.webp",
-    "description": "Pristine white granite with subtle gray veining, offering a clean and modern aesthetic."
+    "description": "Pristine white granite with subtle gray veining, offering a clean and modern aesthetic.",
+    "description2": "جرانيت أبيض نقي مع عروق رمادية خفيفة، يمنح مظهرًا عصريًا ونظيفًا."
   },
   {
     "id": 59,
     "title": "Roza",
+    "title2": "روزا",
     "image": "/Cat-Marble/chima-pink-granite.jpg",
-    "description": "Pinkish granite with fine grains, adding warmth and elegance to interiors."
+    "description": "Pinkish granite with fine grains, adding warmth and elegance to interiors.",
+    "description2": "جرانيت وردي بحبيبات دقيقة، يضيف دفئًا وأناقة للديكورات الداخلية."
   },
   {
     "id": 60,
     "title": "Baltic Brown",
+    "title2": "بالتك براون",
     "image": "/Cat-Marble/baltic-brown-granite.jpg",
-    "description": "Brown granite with circular patterns of black and lighter browns, popular for countertops."
+    "description": "Brown granite with circular patterns of black and lighter browns, popular for countertops.",
+    "description2": "جرانيت بني مع أنماط دائرية من الأسود والبني الفاتح، شائع الاستخدام في الأسطح."
   },
   {
     "id": 61,
     "title": "Tiger Skin",
+    "title2": "تايجر سكين",
     "image": "/Cat-Marble/Tiger-Skin-Granite.jpg",
-    "description": "Granite with bold streaks resembling tiger stripes, making a statement in any setting."
+    "description": "Granite with bold streaks resembling tiger stripes, making a statement in any setting.",
+    "description2": "جرانيت يتميز بخطوط جريئة تشبه جلد النمر، يضيف لمسة مميزة في أي مكان."
   },
   {
     "id": 62,
     "title": "Crema Bordeaux",
+    "title2": "كريما بوردو",
     "image": "/Cat-Marble/granite_Crema-Bordeaux_W8mSmWs6lvQ1bst3TK29.jpg",
-    "description": "Warm-toned granite with a mix of cream, gold, and burgundy hues, exuding luxury."
+    "description": "Warm-toned granite with a mix of cream, gold, and burgundy hues, exuding luxury.",
+    "description2": "جرانيت بألوان دافئة تجمع بين الكريمي والذهبي والعنابي، يضفي مظهرًا فاخرًا."
   },
   {
     "id": 63,
     "title": "Solarious",
+    "title2": "سولاريوس",
     "image": "/Cat-Marble/solarius-granite.jpg",
-    "description": "Vibrant granite with swirling patterns of gold, orange, and brown, adding energy to spaces."
+    "description": "Vibrant granite with swirling patterns of gold, orange, and brown, adding energy to spaces.",
+    "description2": "جرانيت حيوي بنقوش متداخلة من الذهبي والبرتقالي والبني، يضيف طاقة للمكان."
   },
   {
     "id": 64,
     "title": "Ubatuba",
+    "title2": "أوباتوبا",
     "image": "/Cat-Marble/ubatuba-granite.jpg",
-    "description": "Dark green granite with flecks of gold and brown, commonly used in kitchen countertops."
+    "description": "Dark green granite with flecks of gold and brown, commonly used in kitchen countertops.",
+    "description2": "جرانيت أخضر داكن مع نقاط ذهبية وبنية، يُستخدم غالبًا في أسطح المطابخ."
   },
   {
     "id": 65,
     "title": "Absolute Black",
+    "title2": "الأسود المطلق",
     "image": "/Cat-Marble/absolute_20black_20_28honed_29_ed1c9778-6f2b-4197-aba3-be3aabb772f9.jpg",
-    "description": "Solid black granite with a consistent color, offering a sleek and contemporary look."
+    "description": "Solid black granite with a consistent color, offering a sleek and contemporary look.",
+    "description2": "جرانيت أسود صلب بلون موحد، يمنح مظهرًا عصريًا وأنيقًا."
   },
   {
     "id": 66,
     "title": "Giallo Vicenza",
+    "title2": "جيالو فيتشنزا",
     "image": "/Cat-Marble/giallo-vicenza-granite.jpg",
-    "description": "Golden-yellow granite with brown and gray veins, bringing warmth to any space."
+    "description": "Golden-yellow granite with brown and gray veins, bringing warmth to any space.",
+    "description2": "جرانيت أصفر ذهبي مع عروق بنية ورمادية، يضفي دفئًا على أي مكان."
   },
   {
     "id": 67,
     "title": "Baltic Red",
+    "title2": "بالتك ريد",
     "image": "/Cat-Marble/Carmen-Red-GraniteJPG201879163730.jpg",
-    "description": "Red granite with black and gray speckles, suitable for both traditional and modern designs."
+    "description": "Red granite with black and gray speckles, suitable for both traditional and modern designs.",
+    "description2": "جرانيت أحمر مع نقاط سوداء ورمادية، مناسب للتصاميم الكلاسيكية والحديثة."
   },
   {
     "id": 68,
     "title": "Imperial Gold",
+    "title2": "إمبيريال جولد",
     "image": "/Cat-Marble/___big_imperial_gold_1637226929__20211116_082921_pcd_adriatik_novezamky_a_3995a.jpg",
-    "description": "Luxurious gold granite with intricate patterns, perfect for high-end applications."
+    "description": "Luxurious gold granite with intricate patterns, perfect for high-end applications.",
+    "description2": "جرانيت ذهبي فاخر بنقوش متقنة، مثالي للتطبيقات الراقية."
   },
   {
     "id": 69,
     "title": "Titanium Black",
+    "title2": "تيتانيوم بلاك",
     "image": "/Cat-Marble/titanium-black-granite-polished-500x500.webp",
-    "description": "Elegant black granite with silver and gold veining, perfect for luxury countertops."
+    "description": "Elegant black granite with silver and gold veining, perfect for luxury countertops.",
+    "description2": "جرانيت أسود أنيق بعروق فضية وذهبية، مثالي للأسطح الفاخرة."
   },
   {
     "id": 70,
     "title": "Prada Gold",
+    "title2": "برادا جولد",
     "image": "/Cat-Marble/prada-gold-Sample.jpg",
-    "description": "Golden granite with warm earthy tones, ideal for classic interior designs."
+    "description": "Golden granite with warm earthy tones, ideal for classic interior designs.",
+    "description2": "جرانيت ذهبي بدرجات ترابية دافئة، مثالي للتصاميم الداخلية الكلاسيكية."
   },
   {
     "id": 71,
     "title": "Bianco",
+    "title2": "بيانكو",
     "image": "/Cat-Marble/Bianco-Sardo-Granite-.jpeg",
-    "description": "Bright white granite with subtle gray veining, offers a clean and modern look."
+    "description": "Bright white granite with subtle gray veining, offers a clean and modern look.",
+    "description2": "جرانيت أبيض لامع مع عروق رمادية خفيفة، يمنح مظهرًا عصريًا ونظيفًا."
   },
   {
     "id": 72,
     "title": "Vyara Gold",
+    "title2": "فيارا جولد",
     "image": "/Cat-Marble/vyara-gold-granite.jpg",
-    "description": "A golden base granite with wavy brown and gray accents, great for elegant spaces."
+    "description": "A golden base granite with wavy brown and gray accents, great for elegant spaces.",
+    "description2": "جرانيت بقاعدة ذهبية مع لمسات بنية ورمادية متموجة، رائع للمساحات الأنيقة."
   },
   {
     "id": 73,
     "title": "Blue Pearl",
+    "title2": "بلو بيرل",
     "image": "/Cat-Marble/Blue-Pearl-Granite.webp",
-    "description": "Dark blue granite with iridescent crystals, perfect for stylish countertops."
+    "description": "Dark blue granite with iridescent crystals, perfect for stylish countertops.",
+    "description2": "جرانيت أزرق داكن مع بلورات لامعة، مثالي لأسطح أنيقة وعصرية."
   },
   {
     "id": 74,
     "title": "American Bouquet",
+    "title2": "أمريكان بوكيت",
     "image": "/Cat-Marble/AmericanBouquet.jpg",
-    "description": "Rich blend of brown, red, and black, giving a bouquet-like appearance."
+    "description": "Rich blend of brown, red, and black, giving a bouquet-like appearance.",
+    "description2": "مزيج غني من البني والأحمر والأسود، يعطي مظهرًا يشبه الباقة."
   },
   {
     "id": 75,
     "title": "Chapel Rose",
+    "title2": "تشابل روز",
     "image": "/Cat-Marble/Chapel-Rose.jpg",
-    "description": "Soft pink granite with light speckles, brings a warm and inviting ambiance."
+    "description": "Soft pink granite with light speckles, brings a warm and inviting ambiance.",
+    "description2": "جرانيت وردي ناعم مع نقاط فاتحة، يضيف جوًا دافئًا ومرحّبًا."
   },
   {
     "id": 76,
     "title": "Madurai Gold",
     "image": "/Cat-Marble/madurai-gold-granite-1517053110-3610291.jpeg",
-    "description": "Warm gold granite with orange and brown patterns, adds depth to any setting."
+    "description": "Warm gold granite with orange and brown patterns, adds depth to any setting.",
+    "title2": "مادوراي جولد",
+    "description2": "جرانيت ذهبي دافئ بلمسات برتقالية وبنية، يضيف عمق وأناقة لأي مكان."
   },
   {
     "id": 77,
     "title": "Rosa Beta",
     "image": "/Cat-Marble/ROSA-BETA.jpg",
-    "description": "Classic pink granite with consistent grain, commonly used in exteriors."
+    "description": "Classic pink granite with consistent grain, commonly used in exteriors.",
+    "title2": "روزا بيتا",
+    "description2": "جرانيت وردي كلاسيكي بحبيبات منتظمة، يُستخدم بكثرة في الواجهات الخارجية."
   },
   {
     "id": 78,
     "title": "Butterfly Blue",
     "image": "/Cat-Marble/Butterfly-Blue-Granite-Surface.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces.",
+    "title2": "باترفلاي بلو",
+    "description2": "جرانيت أزرق أنيق مع عروق سوداء ورمادية بارزة، مثالي للمساحات العصرية."
   },
-
   {
     "id": 79,
     "title": "kashmir gold",
     "image": "/Cat-Marble/granite_Kashmir-Gold_fS107YqgmLPUZUP1PylU.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Golden granite with warm beige and brown tones, ideal for kitchens and bathrooms.",
+    "title2": "كشمير جولد",
+    "description2": "جرانيت ذهبي مع درجات بيج وبني دافئة، مثالي للمطابخ والحمامات."
   },
   {
     "id": 80,
     "title": "santa cecilia",
     "image": "/Cat-Marble/santa_20cecilia.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Light beige granite with specks of gold and black, popular for countertops.",
+    "title2": "سانتا سيسيليا",
+    "description2": "جرانيت بيج فاتح بلمسات ذهبية وسوداء، شائع في أسطح المطابخ."
   },
   {
     "id": 81,
     "title": "new calendonia",
     "image": "/Cat-Marble/new-caledonia.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Gray granite with fine black and white grains, durable and stylish.",
+    "title2": "نيو كاليدونيا",
+    "description2": "جرانيت رمادي بحبيبات دقيقة من الأسود والأبيض، أنيق ومتين."
   },
   {
     "id": 82,
     "title": "royal brown",
     "image": "/Cat-Marble/granite-flooring-slab-500x500.webp",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Rich brown granite with natural patterns, brings warmth to interiors.",
+    "title2": "رويال براون",
+    "description2": "جرانيت بني غني برسومات طبيعية، يضيف دفئًا للمساحات الداخلية."
   },
   {
     "id": 83,
     "title": "amber fantasy",
     "image": "/Cat-Marble/DTN_G411_AmberFantasy.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Golden amber granite with flowing patterns, perfect for luxury designs.",
+    "title2": "امبر فانتازي",
+    "description2": "جرانيت كهرماني ذهبي برسومات انسيابية، مناسب للتصاميم الفاخرة."
   },
   {
     "id": 84,
     "title": "verde tropical",
     "image": "/Cat-Marble/verde-tropical.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Deep green granite with black and lighter green flecks, exotic and bold.",
+    "title2": "فيردي تروبيكال",
+    "description2": "جرانيت أخضر داكن مع لمسات من الأسود والأخضر الفاتح، جريء ومميز."
   },
   {
     "id": 85,
     "title": "wasa quartieZ",
     "image": "/Cat-Marble/wasa-quartzite-tile-10460-1B.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Natural quartzite stone with white and gray shades, highly durable.",
+    "title2": "وازا كوارتزيت",
+    "description2": "حجر كوارتزيت طبيعي بدرجات الأبيض والرمادي، شديد المتانة."
   },
   {
     "id": 86,
     "title": "bash paradiso",
     "image": "/Cat-Marble/Bash-Paradiso-Granite.webp",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Unique granite with swirls of purple, gray, and black, adds dramatic style.",
+    "title2": "باش باراديسو",
+    "description2": "جرانيت مميز بعروق بنفسجية ورمادية وسوداء، يضيف لمسة درامية."
   },
   {
     "id": 87,
     "title": "lapidus",
     "image": "/Cat-Marble/Lapidus.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Exotic golden granite with flowing black and brown veins.",
+    "title2": "لابيدوس",
+    "description2": "جرانيت ذهبي فاخر بعروق سوداء وبنية متداخلة."
   },
   {
     "id": 88,
     "title": "perla bianca",
     "image": "/Cat-Marble/863ed65afb42cb5c4ceea002e2f78845.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Elegant white granite with subtle gray veins, timeless and versatile.",
+    "title2": "بيرلا بيانكا",
+    "description2": "جرانيت أبيض أنيق مع عروق رمادية رقيقة، كلاسيكي ومتعدد الاستخدامات."
   },
   {
     "id": 89,
     "title": "terra ombra",
     "image": "/Cat-Marble/Terra-Ombra.webp",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Earth-toned granite with shades of brown and beige, natural look.",
+    "title2": "تيرا أومبرا",
+    "description2": "جرانيت بألوان ترابية من درجات البني والبيج، يعطي مظهرًا طبيعيًا."
   },
   {
     "id": 90,
     "title": "amarone",
     "image": "/Cat-Marble/Amarone-Granite-Close-Up-1030x773.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Dark red granite with black and gray highlights, bold and luxurious.",
+    "title2": "اماروني",
+    "description2": "جرانيت أحمر داكن بلمسات سوداء ورمادية، جريء وفاخر."
   },
   {
     "id": 91,
     "title": "silver amarone",
+    "title2": "سيلفر أمارون",
     "image": "/Cat-Marble/Granite-Silver-Amarone-min.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Elegant silver granite with subtle waves of gray and white tones.",
+    "description2": "جرانيت فضي أنيق مع تموجات ناعمة من الرمادي والأبيض."
   },
   {
     "id": 92,
     "title": "azul bahia",
+    "title2": "أزول باهيا",
     "image": "/Cat-Marble/Azul-Bahia-granite.webp",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Exotic blue granite known for its rich deep navy and golden specks.",
+    "description2": "جرانيت أزرق فاخر يتميز بدرجات كحلية عميقة ونقاط ذهبية لامعة."
   },
   {
     "id": 93,
     "title": "typhoon gold",
+    "title2": "تايفون جولد",
     "image": "/Cat-Marble/typhoon-gold-granite-tile-4308-1B.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Warm golden granite with swirls of brown and cream, ideal for luxury interiors.",
+    "description2": "جرانيت ذهبي دافئ مع تموجات بنية وكريمية، مثالي للمساحات الفاخرة."
   },
   {
     "id": 94,
     "title": "blue louis",
+    "title2": "بلو لويس",
     "image": "/Cat-Marble/54dc4086cc6e77818215cfef73bcb818.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Unique blue-toned granite with flowing gray veins, perfect for bold designs.",
+    "description2": "جرانيت أزرق مميز مع عروق رمادية متدفقة، مثالي للتصاميم الجريئة."
   },
   {
     "id": 95,
     "title": "nobel red",
+    "title2": "نوبل ريد",
     "image": "/Cat-Marble/Noble-Red-Granite-1024x1024.webp",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Vibrant red granite accented with black and white crystals for dramatic appeal.",
+    "description2": "جرانيت أحمر زاهي تتخلله بلورات سوداء وبيضاء لإطلالة درامية."
   },
   {
     "id": 96,
     "title": "butterfly green",
+    "title2": "باترفلاي جرين",
     "image": "/Cat-Marble/butterfly-green-e1675415469268.jpg",
-    "description": "Dramatic blue granite with bold black and gray veins, perfect for modern spaces."
+    "description": "Rich green granite with reflective minerals that create a butterfly-like effect.",
+    "description2": "جرانيت أخضر غني يحتوي على معادن عاكسة تعطي تأثير يشبه أجنحة الفراشة."
   }
 ]

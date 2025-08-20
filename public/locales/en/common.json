@@ -6,6 +6,8 @@
   "marbleGranite": "Marble & Granite",
   "menu": "Menu",
   "getQuote": "Get a Quote",
+  "El Behery": "El Behery",
+  "Inquire on WhatsApp": "Inquire on WhatsApp",
   "discoverSec": {
     "title": "Luxury in Every Vein",
     "description": "Discover our premium selection of natural marble, crafted by nature and perfected for timeless beauty. Each piece tells a unique story, adding elegance and prestige to your space."
@@ -113,7 +115,7 @@
     "desc": "Our reputation is built on trust and excellence. Here’s what our clients have to say about working with us.",
     "testimonials": [
       {
-        "name": "Mohamed Younes",
+        "name": "Hosam El Behery",
         "role": "Home Owner",
         "feedback": "El Behery Marble transformed my living room with elegance and timeless beauty. Truly a masterpiece!",
         "img": "/persons/465938359_18372636814107407_3609180043444429634_n.jpg"

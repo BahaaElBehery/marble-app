@@ -6,7 +6,7 @@ import "swiper/css/autoplay";
 import { useTranslation } from "react-i18next";
 
 const ServicesSection = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const images = [
     "https://scontent.fcai23-1.fna.fbcdn.net/v/t39.30808-6/486377653_1084776047001595_6809137013621516861_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Q05lDQ_p7BkQ7kNvwHlx47O&_nc_oc=AdlohTuN8OzEtd5T7pbI3h33Py_Nbp0u2AFDZ00CrAdVBhnKma_uPfrhWtWXxfg2RqM&_nc_zt=23&_nc_ht=scontent.fcai23-1.fna&_nc_gid=8qmpThB0atnACc3QcKbjAQ&oh=00_AfUEtXRjF5yuVfPi1NFSk98Gu_BcRVWgBwWY09tGCA5-og&oe=68A3A961",
@@ -55,7 +55,10 @@ const ServicesSection = () => {
         </div>
 
         {/* Text Section */}
-        <div className="text-white">
+        <div
+          className="text-white px-5"
+          dir={`${i18n.language === "ar" ? "rtl" : "ltr"}`}
+        >
           <h2 className="text-3xl max-sm:text-2xl text-center font-bold mb-4">
             {t("servicesSection.title")}
           </h2>
