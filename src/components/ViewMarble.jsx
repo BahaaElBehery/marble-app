@@ -12,7 +12,7 @@ const ViewMarble = () => {
   const [contextMenuVisible, setContextMenuVisible] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const excludedRef = useRef(null);
-  const { i18n } = useTranslation("");
+  const { i18n, t } = useTranslation("");
   // tilt state
   const [tiltStyle, setTiltStyle] = useState({});
 
@@ -73,7 +73,7 @@ const ViewMarble = () => {
         <Header />
 
         <div
-          className="max-w-6xl mx-auto h-full px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+          className="max-w-6xl mx-auto h-full px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-10"
           dir="ltr"
         >
           {/* الصورة */}
@@ -84,7 +84,7 @@ const ViewMarble = () => {
             className="relative perspective-1000"
           >
             <div
-              className="w-full h-[350px] max-sm:h-[300px] rounded-2xl  overflow-hidden"
+              className="w-full h-[300px] max-sm:h-[300px] rounded-2xl  overflow-hidden"
               style={{
                 transformStyle: "preserve-3d",
                 ...tiltStyle,
@@ -95,7 +95,7 @@ const ViewMarble = () => {
               <motion.img
                 src={selectedMarble?.img || selectedMarble?.image}
                 alt={selectedMarble.title}
-                className="w-full h-full object-cover bg-center"
+                className="w-full h-full object-contain bg-center"
                 animate={{ scale: [1, 1.05, 1] }}
                 transition={{
                   duration: 8,
@@ -114,7 +114,8 @@ const ViewMarble = () => {
             initial={{ x: 80, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.7 }}
-            className="flex flex-col gap-6"
+            className={`flex flex-col gap-6`}
+            dir={`${i18n.language === "ar" ? "rtl" : "ltr"}`}
           >
             <h2 className="text-4xl font-extrabold text-[#d4af7a]">
               {selectedMarble[i18n.language === "ar" ? "title2" : "title"]}
@@ -135,9 +136,12 @@ const ViewMarble = () => {
               className="w-fit"
               rel="noopener noreferrer"
             >
-              <button className="flex items-center gap-3 px-8 py-3 cursor-pointer bg-[#25D366] text-black font-bold rounded-full shadow-lg hover:scale-110 active:scale-95 transition-all duration-300 animate-pulse">
+              <button
+                dir="ltr"
+                className="flex items-center gap-3 px-8 py-3 cursor-pointer bg-[#25D366] text-black font-bold rounded-full shadow-lg hover:scale-110 active:scale-95 transition-all duration-300 animate-pulse"
+              >
                 <FaWhatsapp size={22} />
-                Inquire on WhatsApp
+                {t("Inquire on WhatsApp")}
               </button>
             </a>
           </motion.div>

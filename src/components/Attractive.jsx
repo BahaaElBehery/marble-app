@@ -1,7 +1,24 @@
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const Attractive = () => {
   const { t } = useTranslation();
+  const [activeIndex, setActiveIndex] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // detect if screen is mobile
+  useEffect(() => {
+    const checkScreen = () => setIsMobile(window.innerWidth < 1024);
+    checkScreen();
+    window.addEventListener("resize", checkScreen);
+    return () => window.removeEventListener("resize", checkScreen);
+  }, []);
+
+  const handleClick = (index) => {
+    if (isMobile) {
+      setActiveIndex(activeIndex === index ? null : index);
+    }
+  };
 
   const marblePlaces = [
     {
@@ -40,23 +57,43 @@ const Attractive = () => {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
           dir="ltr"
         >
-          {marblePlaces.map((place, index) => (
-            <div
-              key={index}
-              className="group relative overflow-hidden rounded-2xl shadow-lg"
-            >
-              <img
-                src={place.src}
-                alt={place.title}
-                loading="lazy"
-                className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <h3 className="absolute bottom-4 left-4 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-                {place.title}
-              </h3>
-            </div>
-          ))}
+          {marblePlaces.map((place, index) => {
+            const isActive = activeIndex === index;
+
+            return (
+              <div
+                key={index}
+                className="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer"
+                onClick={() => handleClick(index)}
+              >
+                <img
+                  src={place.src}
+                  alt={place.title}
+                  loading="lazy"
+                  className={`w-full h-64 object-cover transform transition-transform duration-500 
+                    ${isActive ? "scale-110" : "group-hover:scale-110"}`}
+                />
+                <div
+                  className={`absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent 
+                    opacity-0 transition-opacity duration-500
+                    ${isActive ? "opacity-100" : "group-hover:opacity-100"}`}
+                ></div>
+                <h3
+                  className={`absolute bottom-4 left-4 text-white text-lg font-semibold 
+                    opacity-0 transform translate-y-4 transition-all duration-500 py-3 ${
+                      isMobile ? "py-5" : null
+                    }
+                    ${
+                      isActive
+                        ? "opacity-100 translate-y-0"
+                        : "group-hover:opacity-100 group-hover:translate-y-0"
+                    }`}
+                >
+                  {place.title}
+                </h3>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
