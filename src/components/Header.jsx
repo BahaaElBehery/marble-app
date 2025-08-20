@@ -96,7 +96,7 @@ const MarbleHeader = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center justify-center gap-3">
+          <div className="hidden max-lg:flex items-center justify-center gap-3">
             <button
               onClick={() => setMenuOpen(true)}
               className="lg:hidden text-white"
