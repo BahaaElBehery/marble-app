@@ -9,10 +9,10 @@ const About_Last = () => {
       {/* خلفية */}
       <div className="absolute inset-0">
         <img
-          src="https://scontent.fcai26-1.fna.fbcdn.net/v/t39.30808-6/528042979_1188050820007450_6161584392048173844_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=luMDRvX7iFcQ7kNvwFkvZ2g&_nc_oc=AdkIdj3xWN19alpqDssHII9D-_au-4G8I5ApNcUmF9GVEXfE-KzvSm6R3PugloA9K_A&_nc_zt=23&_nc_ht=scontent.fcai26-1.fna&_nc_gid=F1o112yMDqOjKMImybGUeg&oh=00_AfW7b13EmPjmvmjG0u9cBzan2ZTEg9D1S-SZmhhjmfCBbg&oe=68A6739E"
+          src="/Cat-Marble/398895503_743073657838504_4425152943727048820_n.jpg"
           alt="Marble Background"
           loading="lazy"
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-30"
         />
       </div>
 
