@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "./HomePageComponents/Header";
 import { useState, useRef } from "react";
 import CatMarble from "./json/categoriesMarble.json";
 import CatGranite from "./json/Granite.json";
