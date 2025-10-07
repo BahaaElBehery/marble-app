@@ -1,4 +1,4 @@
-import marble from "./json/marble.json";
+import marble from "../json/marble.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";

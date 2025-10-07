@@ -23,17 +23,14 @@ const Footer = () => {
   };
 
   return (
-    <footer
-      className="max-w-[1920px] mx-auto bg-black text-white py-12 px-6"
-      dir="ltr"
-    >
-      <div className="mx-auto grid md:grid-cols-3 gap-12">
+    <footer className=" max-w-[1920px] bg-black text-white py-14 px-6 mt-auto">
+      <div className="mx-auto grid md:grid-cols-3 gap-12 max-w-6xl">
         {/* Logo & Social */}
         <div
           className={`${
             i18n.language === "ar"
               ? "flex flex-col items-center justify-start"
-              : null
+              : ""
           }`}
         >
           <h2 className="text-3xl font-bold tracking-wide text-yellow-500">
@@ -41,7 +38,7 @@ const Footer = () => {
           </h2>
           <p className="text-gray-400 mt-2">{t("footer.subtitle")}</p>
 
-          <div className={`flex gap-4 mt-5`}>
+          <div className="flex gap-4 mt-5">
             <a
               href="https://www.facebook.com/profile.php?id=100010377245567"
               target="_blank"
@@ -62,8 +59,8 @@ const Footer = () => {
         </div>
 
         {/* Links */}
-        <div className="flex flex-col items-center gap-3 *:w-fit">
-          <h3 className="text-lg font-semibold text-yellow-500">
+        <div className="flex flex-col items-center gap-3">
+          <h3 className="text-lg font-semibold text-yellow-500 mb-1">
             {t("footer.quickLinks")}
           </h3>
           <Link to="/categories" className="hover:text-yellow-400">
@@ -102,7 +99,7 @@ const Footer = () => {
               onChange={handleChange}
               required
               rows="3"
-              className="bg-gray-800 p-3 rounded-md outline-none focus:ring-2 focus:ring-yellow-500 max-h-[100px]"
+              className="bg-gray-800 p-3 rounded-md outline-none focus:ring-2 focus:ring-yellow-500 resize-none"
             />
             <button
               type="submit"
@@ -114,7 +111,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-800 pt-6">
+      {/* الحقوق */}
+      <div className="text-center text-gray-500 text-sm mt-12 border-t border-gray-800 pt-6">
         © {new Date().getFullYear()} ElBehery Marble. {t("footer.rights")}
       </div>
     </footer>

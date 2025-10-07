@@ -1,4 +1,4 @@
-import Masterpiece from "./Masterpiece";
+import Masterpiece from "./Cat-Components/Masterpiece";
 
 import CatMarble from "./json/categoriesMarble.json";
 import CatGranite from "./json/Granite.json";
