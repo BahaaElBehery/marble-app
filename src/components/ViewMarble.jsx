@@ -67,7 +67,7 @@ const ViewMarble = () => {
     <div
       onContextMenu={handleContextMenu}
       onClick={handleClick}
-      className="h-screen w-screen bg-black text-white max-lg:overflow-auto py-36"
+      className="h-screen max-sm:w-screen  w-[80%] mx-auto bg-black text-white overflow-auto py-36"
     >
       <div ref={excludedRef}>
         <Header />
